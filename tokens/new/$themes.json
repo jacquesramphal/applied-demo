@@ -1,5 +1,39 @@
 [
   {
+    "id": "00_master-modes",
+    "name": "Master Modes",
+    "group": "00_Master",
+    "description": "Master theme using Figma Modes for independent Brand, Theme, and Spacing selection",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "02_Layout": "enabled",
+      "03_Themes/Light": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
+    },
+    "$figmaVariableReferences": {},
+    "modes": {
+      "Brand": ["Default", "Brand2"],
+      "Theme": ["Light", "Dark"],
+      "Spacing": ["Default", "Compact", "Spacious"]
+    },
+    "modeValues": {
+      "Default/Light/Default": { "01_Brand/Default": true, "03_Themes/Light": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": false },
+      "Default/Light/Compact": { "01_Brand/Default": true, "03_Themes/Light": true, "04_Responsive/Compact": true, "04_Responsive/Spacious": false },
+      "Default/Light/Spacious": { "01_Brand/Default": true, "03_Themes/Light": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": true },
+      "Default/Dark/Default": { "01_Brand/Default": true, "03_Themes/Dark": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": false },
+      "Default/Dark/Compact": { "01_Brand/Default": true, "03_Themes/Dark": true, "04_Responsive/Compact": true, "04_Responsive/Spacious": false },
+      "Default/Dark/Spacious": { "01_Brand/Default": true, "03_Themes/Dark": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": true },
+      "Brand2/Light/Default": { "01_Brand/Brand2": true, "03_Themes/Light": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": false },
+      "Brand2/Light/Compact": { "01_Brand/Brand2": true, "03_Themes/Light": true, "04_Responsive/Compact": true, "04_Responsive/Spacious": false },
+      "Brand2/Light/Spacious": { "01_Brand/Brand2": true, "03_Themes/Light": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": true },
+      "Brand2/Dark/Default": { "01_Brand/Brand2": true, "03_Themes/Dark": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": false },
+      "Brand2/Dark/Compact": { "01_Brand/Brand2": true, "03_Themes/Dark": true, "04_Responsive/Compact": true, "04_Responsive/Spacious": false },
+      "Brand2/Dark/Spacious": { "01_Brand/Brand2": true, "03_Themes/Dark": true, "04_Responsive/Compact": false, "04_Responsive/Spacious": true }
+    }
+  },
+  {
     "id": "_base-value",
     "name": "Value",
     "group": "_Base",

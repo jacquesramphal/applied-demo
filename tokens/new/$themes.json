@@ -412,7 +412,9 @@
       "01_Brand/Default": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Dark": "enabled",
-      "04_Responsive/Compact": "enabled"
+      "04_Responsive/Compact": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -427,7 +429,9 @@
       "01_Brand/Default": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Light": "enabled",
-      "04_Responsive/Compact": "enabled"
+      "04_Responsive/Compact": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -442,7 +446,9 @@
       "01_Brand/Default": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Dark": "enabled",
-      "04_Responsive/Spacious": "enabled"
+      "04_Responsive/Spacious": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -457,7 +463,9 @@
       "01_Brand/Default": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Light": "enabled",
-      "04_Responsive/Spacious": "enabled"
+      "04_Responsive/Spacious": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -472,7 +480,9 @@
       "01_Brand/Brand2": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Dark": "enabled",
-      "04_Responsive/Compact": "enabled"
+      "04_Responsive/Compact": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -487,7 +497,9 @@
       "01_Brand/Brand2": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Light": "enabled",
-      "04_Responsive/Compact": "enabled"
+      "04_Responsive/Compact": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -502,7 +514,9 @@
       "01_Brand/Brand2": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Dark": "enabled",
-      "04_Responsive/Spacious": "enabled"
+      "04_Responsive/Spacious": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}
@@ -517,7 +531,9 @@
       "01_Brand/Brand2": "enabled",
       "02_Layout": "enabled",
       "03_Themes/Light": "enabled",
-      "04_Responsive/Spacious": "enabled"
+      "04_Responsive/Spacious": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {}

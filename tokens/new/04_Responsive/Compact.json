@@ -1,0 +1,196 @@
+{
+  "fontSize": {
+    "body": {
+      "tiny": {
+        "value": 13,
+        "type": "fontSizes"
+      },
+      "small": {
+        "value": 17,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 31,
+        "type": "fontSizes"
+      }
+    },
+    "headline": {
+      "small": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 27,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 34,
+        "type": "fontSizes"
+      }
+    },
+    "label": {
+      "small": {
+        "value": 17,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 27,
+        "type": "fontSizes"
+      }
+    },
+    "display": {
+      "small": {
+        "value": 41,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 54,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 68,
+        "type": "fontSizes"
+      },
+      "xlarge": {
+        "value": 119,
+        "type": "fontSizes"
+      },
+      "xxlarge": {
+        "value": 153,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "lineHeight": {
+    "body": {
+      "tiny": {
+        "value": 20,
+        "type": "lineHeights"
+      },
+      "small": {
+        "value": 24,
+        "type": "lineHeights"
+      },
+      "medium": {
+        "value": 27,
+        "type": "lineHeights"
+      }
+    }
+  },
+  "spacing": {
+    "compact-2": {
+      "value": 2,
+      "type": "dimension"
+    },
+    "compact-3": {
+      "value": 2,
+      "type": "dimension"
+    },
+    "compact-4": {
+      "value": 3,
+      "type": "dimension"
+    },
+    "compact-5": {
+      "value": 4,
+      "type": "dimension"
+    },
+    "compact-6": {
+      "value": 5,
+      "type": "dimension"
+    },
+    "compact-7": {
+      "value": 6,
+      "type": "dimension"
+    },
+    "compact-8": {
+      "value": 7,
+      "type": "dimension"
+    },
+    "compact-10": {
+      "value": 8,
+      "type": "dimension"
+    },
+    "compact-12": {
+      "value": 10,
+      "type": "dimension"
+    },
+    "compact-14": {
+      "value": 12,
+      "type": "dimension"
+    },
+    "compact-16": {
+      "value": 14,
+      "type": "dimension"
+    },
+    "compact-18": {
+      "value": 15,
+      "type": "dimension"
+    },
+    "compact-20": {
+      "value": 17,
+      "type": "dimension"
+    },
+    "compact-22": {
+      "value": 19,
+      "type": "dimension"
+    },
+    "compact-24": {
+      "value": 20,
+      "type": "dimension"
+    },
+    "compact-28": {
+      "value": 24,
+      "type": "dimension"
+    },
+    "compact-32": {
+      "value": 27,
+      "type": "dimension"
+    },
+    "compact-36": {
+      "value": 31,
+      "type": "dimension"
+    },
+    "compact-40": {
+      "value": 34,
+      "type": "dimension"
+    },
+    "compact-44": {
+      "value": 37,
+      "type": "dimension"
+    },
+    "compact-48": {
+      "value": 41,
+      "type": "dimension"
+    },
+    "compact-56": {
+      "value": 48,
+      "type": "dimension"
+    },
+    "compact-64": {
+      "value": 54,
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "compact-small": {
+      "value": 3,
+      "type": "borderRadius"
+    },
+    "compact-medium": {
+      "value": 7,
+      "type": "borderRadius"
+    },
+    "compact-large": {
+      "value": 14,
+      "type": "borderRadius"
+    }
+  }
+}

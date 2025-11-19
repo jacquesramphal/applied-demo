@@ -1,0 +1,15 @@
+{
+  "tokenSetOrder": [
+    "_Base/Value",
+    "01_Brand/Default",
+    "01_Brand/Brand2",
+    "02_Global",
+    "03_Themes/Dark",
+    "03_Themes/Light",
+    "04_Responsive/Compact",
+    "04_Responsive/Spacious",
+    "05_Motion/Animations",
+    "06_Interactions/States",
+    "07_Components/Compositions"
+  ]
+}

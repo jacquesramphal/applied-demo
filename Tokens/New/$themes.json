@@ -410,6 +410,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Default": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Dark": "enabled",
       "04_Responsive/Compact": "enabled"
     },
@@ -424,6 +425,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Default": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Light": "enabled",
       "04_Responsive/Compact": "enabled"
     },
@@ -438,6 +440,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Default": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Dark": "enabled",
       "04_Responsive/Spacious": "enabled"
     },
@@ -452,6 +455,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Default": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Light": "enabled",
       "04_Responsive/Spacious": "enabled"
     },
@@ -466,6 +470,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Brand2": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Dark": "enabled",
       "04_Responsive/Compact": "enabled"
     },
@@ -480,6 +485,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Brand2": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Light": "enabled",
       "04_Responsive/Compact": "enabled"
     },
@@ -494,6 +500,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Brand2": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Dark": "enabled",
       "04_Responsive/Spacious": "enabled"
     },
@@ -508,6 +515,7 @@
     "selectedTokenSets": {
       "_Base/Value": "enabled",
       "01_Brand/Brand2": "enabled",
+      "02_Global": "enabled",
       "03_Themes/Light": "enabled",
       "04_Responsive/Spacious": "enabled"
     },

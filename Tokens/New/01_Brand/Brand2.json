@@ -1,0 +1,244 @@
+{
+  "color": {
+    "brandPrimary": {
+      "primary": {
+        "value": "#dc143c",
+        "type": "color",
+        "description": "High contrast brand primary - bold red"
+      },
+      "secondary": {
+        "value": "#ff6b6b",
+        "type": "color",
+        "description": "High contrast brand secondary - lighter red"
+      },
+      "tertiary": {
+        "value": "#ffa5a5",
+        "type": "color",
+        "description": "High contrast brand tertiary - pale red"
+      },
+      "accent": {
+        "value": "#ff1744",
+        "type": "color",
+        "description": "High contrast brand accent - hot pink"
+      }
+    },
+    "functional": {
+      "warning": {
+        "value": "{color-primitives.Red.30}",
+        "type": "color",
+        "description": "High contrast warning - darker red"
+      },
+      "caution": {
+        "value": "{color-primitives.Amber.20}",
+        "type": "color",
+        "description": "High contrast caution - darker amber"
+      },
+      "positive": {
+        "value": "{color-primitives.Green.20}",
+        "type": "color",
+        "description": "High contrast success - darker green"
+      },
+      "safety": {
+        "value": "{color-primitives.Red.20}",
+        "type": "color"
+      },
+      "informative": {
+        "value": "{color-primitives.Blue.30}",
+        "type": "color",
+        "description": "High contrast info - darker blue"
+      }
+    },
+    "whites": {
+      "white-100-primary": {
+        "value": "{color-primitives.White.White}",
+        "type": "color"
+      },
+      "white-90-default": {
+        "value": "{color-primitives.White.opacity-90}",
+        "type": "color"
+      },
+      "white-80": {
+        "value": "{color-primitives.White.opacity-80}",
+        "type": "color"
+      },
+      "white-70": {
+        "value": "{color-primitives.White.opacity-70}",
+        "type": "color"
+      },
+      "white-60-inactive": {
+        "value": "{color-primitives.White.opacity-60}",
+        "type": "color"
+      },
+      "white-50": {
+        "value": "{color-primitives.White.opacity-50}",
+        "type": "color"
+      },
+      "white-40": {
+        "value": "{color-primitives.White.opacity-40}",
+        "type": "color"
+      },
+      "white-30": {
+        "value": "{color-primitives.White.opacity-30}",
+        "type": "color"
+      },
+      "white-20": {
+        "value": "{color-primitives.White.opacity-20}",
+        "type": "color"
+      },
+      "white-10": {
+        "value": "{color-primitives.White.opacity-10}",
+        "type": "color"
+      },
+      "white-5": {
+        "value": "{color-primitives.White.opacity-5}",
+        "type": "color"
+      }
+    },
+    "blacks": {
+      "black-90-default": {
+        "value": "{color-primitives.Black.opacity-90}",
+        "type": "color"
+      },
+      "black-80": {
+        "value": "{color-primitives.Black.opacity-80}",
+        "type": "color"
+      },
+      "black-70": {
+        "value": "{color-primitives.Black.opacity-70}",
+        "type": "color"
+      },
+      "black-60-inactive": {
+        "value": "{color-primitives.Black.opacity-60}",
+        "type": "color"
+      },
+      "black-50": {
+        "value": "{color-primitives.Black.opacity-50}",
+        "type": "color"
+      },
+      "black-40": {
+        "value": "{color-primitives.Black.opacity-40}",
+        "type": "color"
+      },
+      "black-30-disabled": {
+        "value": "{color-primitives.Black.opacity-30}",
+        "type": "color"
+      },
+      "black-20": {
+        "value": "{color-primitives.Black.opacity-20}",
+        "type": "color"
+      },
+      "black-10": {
+        "value": "{color-primitives.Black.opacity-10}",
+        "type": "color"
+      },
+      "black-5": {
+        "value": "{color-primitives.Black.opacity-5}",
+        "type": "color"
+      }
+    },
+    "active": {
+      "active-light-primary": {
+        "value": "{color-primitives.Blue.60}",
+        "type": "color",
+        "description": "High contrast primary - darker blue"
+      },
+      "active-light-secondary": {
+        "value": "{color-primitives.Blue.50}",
+        "type": "color",
+        "description": "High contrast secondary - darker blue tone"
+      },
+      "active-dark-primary": {
+        "value": "{color-primitives.Blue.30}",
+        "type": "color",
+        "description": "High contrast dark primary - very dark blue"
+      }
+    },
+    "red": {
+      "red-10": {
+        "value": "{color-primitives.Red.90}",
+        "type": "color"
+      },
+      "red-30": {
+        "value": "{color-primitives.Red.60}",
+        "type": "color"
+      },
+      "red-70": {
+        "value": "{color-primitives.Red.30}",
+        "type": "color"
+      },
+      "red-80": {
+        "value": "{color-primitives.Red.20}",
+        "type": "color"
+      },
+      "red-100": {
+        "value": "{color-primitives.Red.10}",
+        "type": "color"
+      }
+    },
+    "green": {
+      "green-10": {
+        "value": "{color-primitives.Green.90}",
+        "type": "color"
+      },
+      "green-80": {
+        "value": "{color-primitives.Green.20}",
+        "type": "color"
+      }
+    },
+    "amber": {
+      "amber-10": {
+        "value": "{color-primitives.Amber.90}",
+        "type": "color"
+      },
+      "amber-80": {
+        "value": "{color-primitives.Amber.20}",
+        "type": "color"
+      }
+    }
+  },
+  "fontFamily": {
+    "hmi": "System UI, -apple-system, sans-serif",
+    "cluster": "Courier New, monospace",
+    "display": "System UI, -apple-system, sans-serif"
+  },
+  "opacity": {
+    "full": {
+      "value": 1,
+      "type": "opacity"
+    },
+    "active": {
+      "value": 1,
+      "type": "opacity"
+    },
+    "hover": {
+      "value": 0.92,
+      "type": "opacity",
+      "description": "Slightly higher opacity for accessibility"
+    },
+    "disabled": {
+      "value": 0.4,
+      "type": "opacity",
+      "description": "Lower opacity for better distinction"
+    },
+    "readonly": {
+      "value": 0.65,
+      "type": "opacity"
+    },
+    "loading": {
+      "value": 0.5,
+      "type": "opacity"
+    }
+  },
+  "gradient": {
+    "primary-linear": {
+      "value": "linear-gradient(90deg, #1570ef 0%, #0b5ed7 100%)",
+      "type": "color",
+      "description": "High contrast gradient - darker blues"
+    },
+    "bg-dark-highlight": {
+      "value": "linear-gradient(135deg, #2c3e50 0%, #1a252f 100%)",
+      "type": "color",
+      "description": "High contrast dark highlight"
+    }
+  }
+}

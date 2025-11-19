@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PLATFORM-SPECIFIC TOKENS - Android, QNX, Web configurations -->
+
+    <!-- ANDROID Platform -->
+    <string name="platform_android_density_bucket">xxhdpi</string>
+    <string name="platform_android_density_bucket">string</string>
+    <string name="platform_android_font_scale">1</string>
+    <string name="platform_android_font_scale">number</string>
+    <string name="platform_android_motion_multiplier">1</string>
+    <string name="platform_android_motion_multiplier">number</string>
+
+    <!-- QNX Platform -->
+    <string name="platform_qnx_density_bucket">standard</string>
+    <string name="platform_qnx_density_bucket">string</string>
+    <string name="platform_qnx_font_scale">0.95</string>
+    <string name="platform_qnx_font_scale">number</string>
+    <string name="platform_qnx_motion_multiplier">0.8</string>
+    <string name="platform_qnx_motion_multiplier">number</string>
+
+</resources>

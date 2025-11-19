@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INTERACTION STATE TOKENS - Hover, active, focus, disabled, etc. -->
+
+    <!-- Active State -->
+    <string name="interaction_active_border-style">solid</string>
+    <string name="interaction_active_color-modifier">darken-20%</string>
+    <item name="interaction_active_opacity" format="float" type="dimen">1.0</item>
+    <string name="interaction_active_transition">{motion.transition.fast-smooth}</string>
+
+    <!-- Disabled State -->
+    <string name="interaction_disabled_color-modifier">desaturate-50%</string>
+    <string name="interaction_disabled_cursor">not-allowed</string>
+    <item name="interaction_disabled_opacity" format="float" type="dimen">0.5</item>
+
+    <!-- Dragging State -->
+    <string name="interaction_dragging_box_shadow">0 8px 16px rgba(0, 0, 0, 0.2)</string>
+    <string name="interaction_dragging_cursor">grabbing</string>
+    <item name="interaction_dragging_opacity" format="float" type="dimen">0.75</item>
+
+    <!-- Error State -->
+    <string name="interaction_error_background_color">{color.red-10}</string>
+    <string name="interaction_error_border_color">{color.red-100}</string>
+    <string name="interaction_error_color">{color.functional-warning}</string>
+    <string name="interaction_error_text_color">{color.red-100}</string>
+
+    <!-- Focus State -->
+    <string name="interaction_focus_outline">2px solid {accessibility.focus-indicator}</string>
+    <string name="interaction_focus_outline-offset">2px</string>
+    <string name="interaction_focus_outline-width">2px</string>
+
+    <!-- Hover State -->
+    <string name="interaction_hover_color-modifier">darken-10%</string>
+    <string name="interaction_hover_cursor">pointer</string>
+    <item name="interaction_hover_opacity" format="float" type="dimen">0.88</item>
+    <string name="interaction_hover_transition">{motion.transition.fast-smooth}</string>
+
+    <!-- Loading State -->
+    <string name="interaction_loading_cursor">wait</string>
+    <item name="interaction_loading_opacity" format="float" type="dimen">0.6</item>
+
+    <!-- Readonly State -->
+    <string name="interaction_readonly_background_color">{color.black-10}</string>
+    <string name="interaction_readonly_cursor">default</string>
+    <item name="interaction_readonly_opacity" format="float" type="dimen">0.6</item>
+    <string name="interaction_readonly_text_color">{color.black-60-inactive}</string>
+
+    <!-- Selected State -->
+    <string name="interaction_selected_background_color">{color.active-light-secondary}</string>
+    <string name="interaction_selected_border_color">{color.active-light-primary}</string>
+    <string name="interaction_selected_text_color">{color.active-dark-primary}</string>
+
+    <!-- Success State -->
+    <string name="interaction_success_background_color">{color.green-10}</string>
+    <string name="interaction_success_border_color">{color.green-80}</string>
+    <string name="interaction_success_color">{color.functional-positive}</string>
+    <string name="interaction_success_text_color">{color.green-80}</string>
+
+    <!-- Warning State -->
+    <string name="interaction_warning_background_color">{color.amber-10}</string>
+    <string name="interaction_warning_border_color">{color.amber-80}</string>
+    <string name="interaction_warning_color">{color.functional-caution}</string>
+    <string name="interaction_warning_text_color">{color.amber-80}</string>
+
+</resources>

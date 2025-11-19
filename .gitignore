@@ -1,0 +1,65 @@
+# ============================================================================
+# VehicleOS Token System — Git Ignore Rules
+# ============================================================================
+
+# IDE & Editor
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# System Files
+.gradle/
+.m2/
+.npm/
+.npm-packages/
+.nvm/
+.yarn/
+.zsh_history
+.zsh_sessions/
+.git/
+
+# Node/JavaScript
+node_modules/
+dist/
+build/
+.next/
+*.log
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+*.egg-info/
+.venv/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDE State
+ide_state.json
+mcp.json
+
+# Temporary/Build
+.emulator_console_auth_token
+.storybook/
+
+# ============================================================================
+# KEEP THESE (Project Files)
+# ============================================================================
+# !_DOCS/
+# !Current/
+# !Updated*/
+# !Archived/
+# !.gitignore
+# !*.json (Keep token JSON files)
+# !*.md (Keep documentation)
+

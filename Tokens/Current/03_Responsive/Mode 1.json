@@ -1,0 +1,212 @@
+{
+  "fontSize": {
+    "body": {
+      "small": {
+        "value": 20,
+        "type": "number"
+      },
+      "medium": {
+        "value": 24,
+        "type": "number"
+      },
+      "large": {
+        "value": 36,
+        "type": "number"
+      },
+      "tiny": {
+        "value": 16,
+        "type": "number"
+      }
+    },
+    "headline": {
+      "large": {
+        "value": 40,
+        "type": "number"
+      },
+      "medium": {
+        "value": 32,
+        "type": "number"
+      },
+      "small": {
+        "value": 24,
+        "type": "number"
+      }
+    },
+    "label": {
+      "large": {
+        "value": 32,
+        "type": "number"
+      },
+      "medium": {
+        "value": 24,
+        "type": "number"
+      },
+      "small": {
+        "value": 20,
+        "type": "number"
+      }
+    },
+    "display": {
+      "medium": {
+        "value": 64,
+        "type": "number"
+      },
+      "small": {
+        "value": 48,
+        "type": "number"
+      },
+      "xxlarge": {
+        "value": 180,
+        "type": "number"
+      },
+      "xlarge": {
+        "value": 140,
+        "type": "number"
+      },
+      "large": {
+        "value": 80,
+        "type": "number"
+      }
+    }
+  },
+  "lineHeight": {
+    "body": {
+      "large": {
+        "value": 44,
+        "type": "number"
+      },
+      "medium": {
+        "value": 32,
+        "type": "number"
+      },
+      "small": {
+        "value": 28,
+        "type": "number"
+      },
+      "tiny": {
+        "value": 24,
+        "type": "number"
+      }
+    },
+    "headline": {
+      "large": {
+        "value": 48,
+        "type": "number"
+      },
+      "medium": {
+        "value": 36,
+        "type": "number"
+      },
+      "small": {
+        "value": 28,
+        "type": "number"
+      }
+    },
+    "label": {
+      "large": {
+        "value": 40,
+        "type": "number"
+      },
+      "medium": {
+        "value": 32,
+        "type": "number"
+      },
+      "small": {
+        "value": 28,
+        "type": "number"
+      }
+    },
+    "display": {
+      "xxlarge": {
+        "value": 184,
+        "type": "number"
+      },
+      "medium": {
+        "value": 72,
+        "type": "number"
+      },
+      "small": {
+        "value": 56,
+        "type": "number"
+      },
+      "xlarge": {
+        "value": 116,
+        "type": "number"
+      },
+      "large": {
+        "value": 106,
+        "type": "number"
+      }
+    }
+  },
+  "letterSpacing": {
+    "body": {
+      "large": {
+        "value": 0,
+        "type": "number"
+      },
+      "medium": {
+        "value": 0.3,
+        "type": "number"
+      },
+      "small": {
+        "value": 0.1,
+        "type": "number"
+      },
+      "tiny": {
+        "value": 1,
+        "type": "number"
+      }
+    },
+    "headline": {
+      "large": {
+        "value": 0,
+        "type": "number"
+      },
+      "medium": {
+        "value": 0,
+        "type": "number"
+      },
+      "small": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "label": {
+      "large": {
+        "value": 0,
+        "type": "number"
+      },
+      "medium": {
+        "value": 0.15,
+        "type": "number"
+      },
+      "small": {
+        "value": 0.1,
+        "type": "number"
+      }
+    },
+    "display": {
+      "xxlarge": {
+        "value": -0.5,
+        "type": "number"
+      },
+      "medium": {
+        "value": 0,
+        "type": "number"
+      },
+      "small": {
+        "value": 0,
+        "type": "number"
+      },
+      "xlarge": {
+        "value": -0.5,
+        "type": "number"
+      },
+      "large": {
+        "value": -0.5,
+        "type": "number"
+      }
+    }
+  }
+}

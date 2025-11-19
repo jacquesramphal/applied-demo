@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MOTION TOKENS - Durations, easing functions, and transitions -->
+
+    <!-- Durations (milliseconds) -->
+    <integer name="motion_duration_short">100</integer>
+    <integer name="motion_duration_medium">200</integer>
+    <integer name="motion_duration_long">300</integer>
+
+    <!-- Easing Functions -->
+    <string name="motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1)</string>
+    <string name="motion_easing_decelerate">cubic-bezier(0.0, 0.0, 0.2, 1)</string>
+    <string name="motion_easing_accelerate">cubic-bezier(0.4, 0.0, 1, 1)</string>
+
+    <!-- Transitions (combined duration + easing) -->
+</resources>

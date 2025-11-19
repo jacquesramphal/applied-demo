@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SPACING TOKENS - 4pt grid system - Organized by token name suffix -->
+
+    <!-- 0 (variants: spacing, compact, spacious) -->
+    <dimen name="0">0dp</dimen>
+
+    <!-- 1 (variants: spacing, compact, spacious) -->
+    <dimen name="1">1dp</dimen>
+
+    <!-- 2 (variants: spacing, compact, spacious) -->
+    <dimen name="2">2dp</dimen>
+    <dimen name="spacing-2">{spacing.2}dp</dimen>
+
+    <!-- 3 (variants: spacing, compact, spacious) -->
+    <dimen name="3">3dp</dimen>
+    <dimen name="spacing-3">{spacing.3}dp</dimen>
+
+    <!-- 4 (variants: spacing, compact, spacious) -->
+    <dimen name="4">4dp</dimen>
+    <dimen name="spacing-4">{spacing.4}dp</dimen>
+
+    <!-- 5 (variants: spacing, compact, spacious) -->
+    <dimen name="5">5dp</dimen>
+    <dimen name="spacing-5">{spacing.5}dp</dimen>
+
+    <!-- 6 (variants: spacing, compact, spacious) -->
+    <dimen name="6">6dp</dimen>
+    <dimen name="spacing-6">{spacing.6}dp</dimen>
+
+    <!-- 7 (variants: spacing, compact, spacious) -->
+    <dimen name="7">7dp</dimen>
+
+    <!-- 8 (variants: spacing, compact, spacious) -->
+    <dimen name="8">8dp</dimen>
+    <dimen name="spacing-8">{spacing.8}dp</dimen>
+
+    <!-- 10 (variants: spacing, compact, spacious) -->
+    <dimen name="10">10dp</dimen>
+    <dimen name="spacing-10">{spacing.10}dp</dimen>
+
+    <!-- 12 (variants: spacing, compact, spacious) -->
+    <dimen name="12">12dp</dimen>
+    <dimen name="spacing-12">{spacing.12}dp</dimen>
+
+    <!-- 14 (variants: spacing, compact, spacious) -->
+    <dimen name="14">14dp</dimen>
+
+    <!-- 16 (variants: spacing, compact, spacious) -->
+    <dimen name="16">16dp</dimen>
+    <dimen name="spacing-16">{spacing.16}dp</dimen>
+
+    <!-- 18 (variants: spacing, compact, spacious) -->
+    <dimen name="18">18dp</dimen>
+
+    <!-- 20 (variants: spacing, compact, spacious) -->
+    <dimen name="20">20dp</dimen>
+    <dimen name="spacing-20">{spacing.20}dp</dimen>
+
+    <!-- 22 (variants: spacing, compact, spacious) -->
+    <dimen name="22">22dp</dimen>
+
+    <!-- 24 (variants: spacing, compact, spacious) -->
+    <dimen name="24">24dp</dimen>
+    <dimen name="spacing-24">{spacing.24}dp</dimen>
+
+    <!-- 28 (variants: spacing, compact, spacious) -->
+    <dimen name="28">28dp</dimen>
+
+    <!-- 32 (variants: spacing, compact, spacious) -->
+    <dimen name="32">32dp</dimen>
+    <dimen name="spacing-32">{spacing.32}dp</dimen>
+
+    <!-- 36 (variants: spacing, compact, spacious) -->
+    <dimen name="36">36dp</dimen>
+
+    <!-- 40 (variants: spacing, compact, spacious) -->
+    <dimen name="40">40dp</dimen>
+    <dimen name="spacing-40">{spacing.40}dp</dimen>
+
+    <!-- 44 (variants: spacing, compact, spacious) -->
+    <dimen name="44">44dp</dimen>
+
+    <!-- 48 (variants: spacing, compact, spacious) -->
+    <dimen name="48">48dp</dimen>
+    <dimen name="spacing-48">{spacing.48}dp</dimen>
+
+    <!-- 56 (variants: spacing, compact, spacious) -->
+    <dimen name="56">56dp</dimen>
+    <dimen name="spacing-56">{spacing.56}dp</dimen>
+
+    <!-- 64 (variants: spacing, compact, spacious) -->
+    <dimen name="64">64dp</dimen>
+    <dimen name="spacing-64">{spacing.64}dp</dimen>
+
+    <!-- BORDER WIDTH TOKENS -->
+
+    <dimen name="border_0">0</dimen>
+    <dimen name="border_1">1px</dimen>
+    <dimen name="border_2">2px</dimen>
+</resources>

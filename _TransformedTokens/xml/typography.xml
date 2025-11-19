@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COMPREHENSIVE TYPOGRAPHY TOKENS -->
+    <!-- Combines font sizes, line heights, font weights, letter spacing, and text case -->
+
+    <!-- ========== FONT SIZES ========== -->
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_48">48sp</dimen>
+    <dimen name="font_size_140">140sp</dimen>
+    <dimen name="font_size_180">180sp</dimen>
+
+    <!-- ========== LINE HEIGHTS ========== -->
+    <dimen name="line_height_16">16sp</dimen>
+    <dimen name="line_height_20">20sp</dimen>
+    <dimen name="line_height_24">24sp</dimen>
+    <dimen name="line_height_28">28sp</dimen>
+    <dimen name="line_height_32">32sp</dimen>
+    <dimen name="line_height_36">36sp</dimen>
+    <dimen name="line_height_40">40sp</dimen>
+    <dimen name="line_height_44">44sp</dimen>
+    <dimen name="line_height_48">48sp</dimen>
+    <dimen name="line_height_56">56sp</dimen>
+    <dimen name="line_height_72">72sp</dimen>
+    <dimen name="line_height_106">106sp</dimen>
+    <dimen name="line_height_116">116sp</dimen>
+
+    <!-- ========== FONT WEIGHTS ========== -->
+    <integer name="font_weight_bold">700</integer>
+    <integer name="font_weight_light">300</integer>
+    <integer name="font_weight_medium">500</integer>
+    <integer name="font_weight_regular">400</integer>
+    <integer name="font_weight_semibold">600</integer>
+
+    <!-- ========== LETTER SPACING ========== -->
+    <!-- Body Category -->
+    <dimen name="letter_spacing_body_large">0.5em</dimen>
+    <dimen name="letter_spacing_body_medium">0.3em</dimen>
+    <dimen name="letter_spacing_body_small">0.1em</dimen>
+    <dimen name="letter_spacing_body_tiny">0em</dimen>
+
+    <!-- Display Category -->
+    <dimen name="letter_spacing_display_large">-0.5em</dimen>
+    <dimen name="letter_spacing_display_medium">-0.25em</dimen>
+    <dimen name="letter_spacing_display_small">0em</dimen>
+    <dimen name="letter_spacing_display_xlarge">-0.5em</dimen>
+    <dimen name="letter_spacing_display_xxlarge">-0.5em</dimen>
+
+    <!-- Headline Category -->
+    <dimen name="letter_spacing_headline_large">0.2em</dimen>
+    <dimen name="letter_spacing_headline_medium">0.1em</dimen>
+    <dimen name="letter_spacing_headline_small">0em</dimen>
+
+    <!-- Label Category -->
+    <dimen name="letter_spacing_label_large">0.3em</dimen>
+    <dimen name="letter_spacing_label_medium">0.1em</dimen>
+    <dimen name="letter_spacing_label_small">0em</dimen>
+
+    <!-- Loose Category -->
+
+    <!-- Normal Category -->
+
+    <!-- Tight Category -->
+
+    <!-- ========== TEXT CASE ========== -->
+    <string name="text_case_truncate-multi-2">-webkit-line-clamp: 2</string>
+    <string name="text_case_truncate-multi-3">-webkit-line-clamp: 3</string>
+    <string name="text_case_truncate-single">ellipsis</string>
+
+</resources>

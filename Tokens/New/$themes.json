@@ -194,6 +194,66 @@
     "$figmaCollectionId": "VariableCollectionId:68:805"
   },
   {
+    "id": "05_default-dark-default",
+    "name": "Default (Dark) - Default Brand",
+    "group": "05_Default",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "02_Layout": "enabled",
+      "03_Themes/Dark": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "05_default-light-default",
+    "name": "Default (Light) - Default Brand",
+    "group": "05_Default",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "02_Layout": "enabled",
+      "03_Themes/Light": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "05_default-dark-brand2",
+    "name": "Default (Dark) - Brand2",
+    "group": "05_Default",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "02_Layout": "enabled",
+      "03_Themes/Dark": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "05_default-light-brand2",
+    "name": "Default (Light) - Brand2",
+    "group": "05_Default",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "02_Layout": "enabled",
+      "03_Themes/Light": "enabled",
+      "05_Interactions/States": "enabled",
+      "07_Components/Compositions": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
     "id": "06_responsive-compact-dark-default",
     "name": "Compact (Dark) - Default Brand",
     "group": "06_Responsive",

@@ -3,7 +3,9 @@
     "id": "_base-value",
     "name": "Value",
     "group": "_Base",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "_Base/Value": "enabled"
+    },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "color-primitives.White.White": "47334ea901b4764b9bf09bc6de6202457ba551ed",
@@ -46,16 +48,16 @@
       "color-primitives.BlueGray.30": "50aea00bb733e969dee9d1081f9f8897ec7f3dcb",
       "color-primitives.BlueGray.20": "9c6b2fef20ba04b998f4308d5012b364f61a5878",
       "color-primitives.BlueGray.10": "18a73b3e3cea66fadf8e88ca86f57870ac6d81f2",
-      "color-primitives.AppliedBlue.95": "e947b6feaf2ca682c4ab2d40f0e66a7316c5fa9c",
-      "color-primitives.AppliedBlue.90": "084989513eface8784688363ca801dc52d00d979",
-      "color-primitives.AppliedBlue.80": "13f0bb7db42c8bfb9d452693c986bf919aec60e3",
-      "color-primitives.AppliedBlue.70": "4677659b043feb303a26852a827d29c5db17b6e5",
-      "color-primitives.AppliedBlue.60": "ad78f5920ed3a0e883abd9b5ac1f34efc795b11f",
-      "color-primitives.AppliedBlue.50": "e971f239b51144455d7a9999b642317bc9c247fc",
-      "color-primitives.AppliedBlue.40": "1afcb3c94e6bd077b20a36668ab31c5c654930e8",
-      "color-primitives.AppliedBlue.30": "97c7b70fbb2b3515e9070e2ec81e399d941e08f0",
-      "color-primitives.AppliedBlue.20": "289122ea9e70e499b373b059d57e118572acdc10",
-      "color-primitives.AppliedBlue.10": "e40f5df9370ba32998d6ea37d21f8861b050091b",
+      "color-primitives.BrandPrimary.95": "e947b6feaf2ca682c4ab2d40f0e66a7316c5fa9c",
+      "color-primitives.BrandPrimary.90": "084989513eface8784688363ca801dc52d00d979",
+      "color-primitives.BrandPrimary.80": "13f0bb7db42c8bfb9d452693c986bf919aec60e3",
+      "color-primitives.BrandPrimary.70": "4677659b043feb303a26852a827d29c5db17b6e5",
+      "color-primitives.BrandPrimary.60": "ad78f5920ed3a0e883abd9b5ac1f34efc795b11f",
+      "color-primitives.BrandPrimary.50": "e971f239b51144455d7a9999b642317bc9c247fc",
+      "color-primitives.BrandPrimary.40": "1afcb3c94e6bd077b20a36668ab31c5c654930e8",
+      "color-primitives.BrandPrimary.30": "97c7b70fbb2b3515e9070e2ec81e399d941e08f0",
+      "color-primitives.BrandPrimary.20": "289122ea9e70e499b373b059d57e118572acdc10",
+      "color-primitives.BrandPrimary.10": "e40f5df9370ba32998d6ea37d21f8861b050091b",
       "color-primitives.Red.10": "81823f8d619776ddc99696e8354aa6d00b49b612",
       "color-primitives.Red.20": "a23a9113e5a7abc8d024652c1dfce466a45e3c52",
       "color-primitives.Amber.10": "554c5c3b4a345629945fa0f12c405546bdce046d",
@@ -131,7 +133,9 @@
     "id": "01_brand-value",
     "name": "Value",
     "group": "01_Brand",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "01_Brand/Value": "enabled"
+    },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "VOS.color.functional.functional-warning": "63d5b70146ec9a10730937400ef54a07335743e7",
@@ -193,7 +197,9 @@
     "id": "03_responsive-mode 1",
     "name": "Mode 1",
     "group": "03_Responsive",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "03_Responsive/Mode 1": "enabled"
+    },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "fontSize.body.small": "b6d6888a1916899be218c01f5ac974235f945990",
@@ -246,10 +252,12 @@
     "$figmaCollectionId": "VariableCollectionId:200:7818"
   },
   {
-    "id": "02_semantics-dark",
+    "id": "03_themes-dark",
     "name": "Dark",
-    "group": "02_Semantics",
-    "selectedTokenSets": {},
+    "group": "03_Themes",
+    "selectedTokenSets": {
+      "03_Themes/Dark": "enabled"
+    },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "onSurface.onSurface-disabled": "46ea9cc7955baef748bc20bfcba46afb0dafbd2f",
@@ -296,10 +304,12 @@
     "$figmaCollectionId": "VariableCollectionId:209:8446"
   },
   {
-    "id": "02_semantics-light",
+    "id": "03_themes-light",
     "name": "Light",
-    "group": "02_Semantics",
-    "selectedTokenSets": {},
+    "group": "03_Themes",
+    "selectedTokenSets": {
+      "03_Themes/Light": "enabled"
+    },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "onSurface.onSurface-disabled": "46ea9cc7955baef748bc20bfcba46afb0dafbd2f",
@@ -344,5 +354,164 @@
     },
     "$figmaModeId": "213:1",
     "$figmaCollectionId": "VariableCollectionId:209:8446"
+  },
+  {
+    "id": "04_brand-applied",
+    "name": "Applied",
+    "group": "04_Brand",
+    "_comment": "Brand override layer for Applied Intelligence. References neutral gradients and brand values from global.json.",
+    "selectedTokenSets": {
+      "global": "enabled",
+      "01_Brand/Value": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "Gradient.primary-linear": "linear-gradient(90deg, #2fcedd 0%, #a536f6 62%, #c597e1 100%)",
+      "Gradient.primary-diagonal": "linear-gradient(45deg, #609eec 0%, #4357c9 31%, #8b32c1 67%, #c392e1 100%)",
+      "color-primitives.BrandPrimary.60": "ad78f5920ed3a0e883abd9b5ac1f34efc795b11f",
+      "color-primitives.BrandPrimary.40": "1afcb3c94e6bd077b20a36668ab31c5c654930e8",
+      "color-primitives.BrandPrimary.20": "289122ea9e70e499b373b059d57e118572acdc10",
+      "_comment": "Preserves Applied-specific color accents for brand fidelity; other brands may override these same keys."
+    },
+    "$figmaModeId": "250:0",
+    "$figmaCollectionId": "VariableCollectionId:250:9000"
+  },
+  {
+    "id": "04_motion-animations",
+    "name": "Animations",
+    "group": "04_Motion",
+    "_comment": "Motion & animation tokens (PHASE 1 EXPANSION). Unified duration, easing, and transition timing for cross-platform consistency.",
+    "selectedTokenSets": {
+      "04_Motion/Animations": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaModeId": "251:0",
+    "$figmaCollectionId": "VariableCollectionId:251:9100"
+  },
+  {
+    "id": "05_interactions-states",
+    "name": "States",
+    "group": "05_Interactions",
+    "_comment": "Interaction state tokens (PHASE 1 EXPANSION). Unified handlers for hover, focus, active, disabled, loading, and error states.",
+    "selectedTokenSets": {
+      "05_Interactions/States": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaModeId": "252:0",
+    "$figmaCollectionId": "VariableCollectionId:252:9200"
+  },
+  {
+    "id": "06_responsive-compact-dark-default",
+    "name": "Compact (Dark) - Default Brand",
+    "group": "06_Responsive",
+    "_comment": "Compact spacing for dark mode. Dense layout for compact vehicles (sedans, coupes).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "03_Themes/Dark": "enabled",
+      "04_Responsive/Compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-compact-light-default",
+    "name": "Compact (Light) - Default Brand",
+    "group": "06_Responsive",
+    "_comment": "Compact spacing for light mode. Dense layout for compact vehicles (sedans, coupes).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "03_Themes/Light": "enabled",
+      "04_Responsive/Compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-spacious-dark-default",
+    "name": "Spacious (Dark) - Default Brand",
+    "group": "06_Responsive",
+    "_comment": "Spacious spacing for dark mode. Generous layout for large vehicles (SUVs, trucks).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "03_Themes/Dark": "enabled",
+      "04_Responsive/Spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-spacious-light-default",
+    "name": "Spacious (Light) - Default Brand",
+    "group": "06_Responsive",
+    "_comment": "Spacious spacing for light mode. Generous layout for large vehicles (SUVs, trucks).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled",
+      "03_Themes/Light": "enabled",
+      "04_Responsive/Spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-compact-dark-brand2",
+    "name": "Compact (Dark) - Brand2",
+    "group": "06_Responsive",
+    "_comment": "Compact spacing for dark mode with Brand2. Dense layout for compact vehicles (sedans, coupes).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "03_Themes/Dark": "enabled",
+      "04_Responsive/Compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-compact-light-brand2",
+    "name": "Compact (Light) - Brand2",
+    "group": "06_Responsive",
+    "_comment": "Compact spacing for light mode with Brand2. Dense layout for compact vehicles (sedans, coupes).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "03_Themes/Light": "enabled",
+      "04_Responsive/Compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-spacious-dark-brand2",
+    "name": "Spacious (Dark) - Brand2",
+    "group": "06_Responsive",
+    "_comment": "Spacious spacing for dark mode with Brand2. Generous layout for large vehicles (SUVs, trucks).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "03_Themes/Dark": "enabled",
+      "04_Responsive/Spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06_responsive-spacious-light-brand2",
+    "name": "Spacious (Light) - Brand2",
+    "group": "06_Responsive",
+    "_comment": "Spacious spacing for light mode with Brand2. Generous layout for large vehicles (SUVs, trucks).",
+    "selectedTokenSets": {
+      "_Base/Value": "enabled",
+      "01_Brand/Brand2": "enabled",
+      "03_Themes/Light": "enabled",
+      "04_Responsive/Spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
   }
 ]

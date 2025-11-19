@@ -3,8 +3,8 @@
     "primary": {
       "default": {
         "value": {
-          "fill": "{color.brandPrimary.primary}",
-          "textColor": "{text.text-inverse}",
+        "fill": "{color.brandPrimary.primary}",
+        "textColor": "{text.text-inverse}",
           "padding": "{spacing.12} {spacing.16}",
           "borderRadius": "{borderRadius.8}",
           "fontSize": "{fontSize.24}",

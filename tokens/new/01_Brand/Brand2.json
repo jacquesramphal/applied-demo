@@ -197,18 +197,9 @@
     }
   },
   "fontFamily": {
-    "hmi": {
-      "value": "System UI, -apple-system, sans-serif",
-      "type": "other"
-    },
-    "cluster": {
-      "value": "Courier New, monospace",
-      "type": "other"
-    },
-    "display": {
-      "value": "System UI, -apple-system, sans-serif",
-      "type": "other"
-    }
+    "hmi": "System UI, -apple-system, sans-serif",
+    "cluster": "Courier New, monospace",
+    "display": "System UI, -apple-system, sans-serif"
   },
   "opacity": {
     "full": {

@@ -64,5 +64,22 @@
       "value": "{spacing.64}",
       "type": "dimension"
     }
+  },
+  "borderRadius": {
+    "radius-small": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Default small radius (base)"
+    },
+    "radius-medium": {
+      "value": 8,
+      "type": "borderRadius",
+      "description": "Default medium radius (base)"
+    },
+    "radius-large": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": "Default large radius (base)"
+    }
   }
 }

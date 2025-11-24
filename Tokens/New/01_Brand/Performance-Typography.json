@@ -5,9 +5,8 @@
       "type": "fontWeights"
     },
     "demibold": {
-      "value": 700,
-      "type": "fontWeights",
-      "description": "Performance uses bolder weights for emphasis"
+      "value": 600,
+      "type": "fontWeights"
     },
     "medium": {
       "value": 500,
@@ -30,7 +29,7 @@
     "body-100": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 500,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.4,
         "fontSize": 18,
         "letterSpacing": 0.2,
@@ -44,7 +43,7 @@
     "body-80": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 500,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.4,
         "fontSize": 14,
         "letterSpacing": 0.1,

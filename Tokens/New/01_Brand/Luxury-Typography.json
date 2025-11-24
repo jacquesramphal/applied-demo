@@ -43,7 +43,7 @@
     "display-100": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 400,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.2,
         "fontSize": 180,
         "letterSpacing": -1,
@@ -57,7 +57,7 @@
     "display-80": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 400,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.25,
         "fontSize": 140,
         "letterSpacing": -0.5,
@@ -70,7 +70,7 @@
     "heading-100": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 600,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.4,
         "fontSize": 48,
         "letterSpacing": 0.2,
@@ -97,7 +97,7 @@
     "body-100": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 400,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.7,
         "fontSize": 20,
         "letterSpacing": 0.4,
@@ -111,7 +111,7 @@
     "body-80": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 400,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.6,
         "fontSize": 16,
         "letterSpacing": 0.3,
@@ -124,7 +124,7 @@
     "label-100": {
       "value": {
         "fontFamily": "{fontFamily.hmi}",
-        "fontWeight": 600,
+        "fontWeight": "{fontWeight.regular}",
         "lineHeight": 1.5,
         "fontSize": 16,
         "letterSpacing": 0.6,

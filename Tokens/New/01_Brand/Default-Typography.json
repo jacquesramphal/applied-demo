@@ -1,0 +1,15 @@
+{
+  "fontFamily": {
+    "hmi": {
+      "value": "tt commons pro",
+      "type": "fontFamilies",
+      "description": "Standard brand - balanced sans-serif"
+    },
+    "cluster": {
+      "value": "tt commons pro mono",
+      "type": "fontFamilies",
+      "description": "Standard brand - monospace variant"
+    }
+  }
+}
+

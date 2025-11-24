@@ -15,9 +15,16 @@
     }
   },
   "fontFamily": {
-    "hmi": "Monaco, Courier New, monospace",
-    "cluster": "Courier New, monospace",
-    "display": "Monaco, Courier New, monospace"
+    "hmi": {
+      "value": "Monaco, Courier New, monospace",
+      "type": "fontFamilies",
+      "description": "Performance brand - bold monospace"
+    },
+    "cluster": {
+      "value": "Courier New, monospace",
+      "type": "fontFamilies",
+      "description": "Performance brand - compact monospace"
+    }
   },
   "letterSpacing": {},
   "Typography": {

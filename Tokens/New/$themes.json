@@ -93,7 +93,8 @@
     "group": "Typography",
     "description": "Standard typography (tt commons pro, balanced weights)",
     "selectedTokenSets": {
-      "_Base/Value": "enabled"
+      "_Base/Value": "enabled",
+      "01_Brand/Default-Typography": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaStyleReferences": {}

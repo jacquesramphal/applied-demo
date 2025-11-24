@@ -17,11 +17,12 @@
     "hmi": {
       "value": "Georgia, serif",
       "type": "fontFamilies",
-      "description": "Spacious uses serif font for elegance"
+      "description": "Luxury brand - elegant serif"
     },
     "cluster": {
       "value": "IBM Plex Mono, monospace",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "Luxury brand - refined monospace"
     }
   },
   "letterSpacing": {

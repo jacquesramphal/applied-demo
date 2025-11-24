@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "_Base/Value",
     "01_Brand/Default",
+    "01_Brand/Default-Typography",
     "01_Brand/Performance",
     "01_Brand/Performance-Typography",
     "01_Brand/Luxury",

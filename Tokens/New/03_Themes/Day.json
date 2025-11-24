@@ -7,9 +7,9 @@
         "description": "Day: Light white surface - primary background"
       },
       "primary-gradient": {
-        "value": "linear-gradient(120.76deg, rgba(255, 255, 255, 0.95) 1.63%, rgba(255, 255, 255, 0.85) 100%)",
+        "value": "linear-gradient(120.76deg, {color.surface.primary}95 1.63%, {color.surface.primary}85 100%)",
         "type": "color",
-        "description": "Day: Light white surface gradient - subtle depth"
+        "description": "Day: Light white surface gradient - subtle depth (references color.surface.primary with opacity)"
       },
       "secondary": {
         "value": "#F5F5F5",
@@ -17,9 +17,9 @@
         "description": "Day: Light gray surface - secondary background"
       },
       "secondary-gradient": {
-        "value": "linear-gradient(120.76deg, rgba(245, 245, 245, 0.95) 1.63%, rgba(232, 232, 232, 0.85) 100%)",
+        "value": "linear-gradient(120.76deg, {color.surface.secondary}95 1.63%, {color.surface.tertiary}85 100%)",
         "type": "color",
-        "description": "Day: Light gray surface gradient - subtle depth"
+        "description": "Day: Light gray surface gradient - subtle depth (references theme colors with opacity)"
       },
       "tertiary": {
         "value": "#E8E8E8",
@@ -27,9 +27,9 @@
         "description": "Day: Light gray surface - tertiary background"
       },
       "tertiary-gradient": {
-        "value": "linear-gradient(120.76deg, rgba(232, 232, 232, 0.9) 1.63%, rgba(220, 220, 220, 0.8) 100%)",
+        "value": "linear-gradient(120.76deg, {color.surface.tertiary}90 1.63%, {color.surface.secondary}80 100%)",
         "type": "color",
-        "description": "Day: Light gray surface gradient - subtle depth"
+        "description": "Day: Light gray surface gradient - subtle depth (references theme colors with opacity)"
       }
     },
     "text": {

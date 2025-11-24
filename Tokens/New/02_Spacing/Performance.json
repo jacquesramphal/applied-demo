@@ -1,0 +1,84 @@
+{
+  "spacing": {
+    "2": {
+      "value": 2,
+      "type": "dimension",
+      "description": "Performance: 2px (compact, 0.75x multiplier - rounded)"
+    },
+    "3": {
+      "value": 2,
+      "type": "dimension",
+      "description": "Performance: 3px \u00d7 0.75 \u2248 2px"
+    },
+    "4": {
+      "value": 3,
+      "type": "dimension",
+      "description": "Performance: 4px \u00d7 0.75 = 3px"
+    },
+    "5": {
+      "value": 4,
+      "type": "dimension",
+      "description": "Performance: 5px \u00d7 0.75 \u2248 4px"
+    },
+    "6": {
+      "value": 5,
+      "type": "dimension",
+      "description": "Performance: 6px \u00d7 0.75 = 5px"
+    },
+    "8": {
+      "value": 6,
+      "type": "dimension",
+      "description": "Performance: 8px \u00d7 0.75 = 6px"
+    },
+    "10": {
+      "value": 8,
+      "type": "dimension",
+      "description": "Performance: 10px \u00d7 0.75 = 8px"
+    },
+    "12": {
+      "value": 9,
+      "type": "dimension",
+      "description": "Performance: 12px \u00d7 0.75 = 9px"
+    },
+    "16": {
+      "value": 12,
+      "type": "dimension",
+      "description": "Performance: 16px \u00d7 0.75 = 12px"
+    },
+    "20": {
+      "value": 15,
+      "type": "dimension",
+      "description": "Performance: 20px \u00d7 0.75 = 15px"
+    },
+    "24": {
+      "value": 18,
+      "type": "dimension",
+      "description": "Performance: 24px \u00d7 0.75 = 18px"
+    },
+    "32": {
+      "value": 24,
+      "type": "dimension",
+      "description": "Performance: 32px \u00d7 0.75 = 24px"
+    },
+    "40": {
+      "value": 30,
+      "type": "dimension",
+      "description": "Performance: 40px \u00d7 0.75 = 30px"
+    },
+    "48": {
+      "value": 36,
+      "type": "dimension",
+      "description": "Performance: 48px \u00d7 0.75 = 36px"
+    },
+    "56": {
+      "value": 42,
+      "type": "dimension",
+      "description": "Performance: 56px \u00d7 0.75 = 42px"
+    },
+    "64": {
+      "value": 48,
+      "type": "dimension",
+      "description": "Performance: 64px \u00d7 0.75 = 48px"
+    }
+  }
+}

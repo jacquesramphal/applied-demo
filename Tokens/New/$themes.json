@@ -5,6 +5,7 @@
     "group": "Color",
     "description": "Standard brand colors - balanced, neutral",
     "selectedTokenSets": {
+      "_Base/Value": "enabled",
       "01_Brand/Default": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -16,6 +17,7 @@
     "group": "Color",
     "description": "Performance brand colors - high contrast, bold",
     "selectedTokenSets": {
+      "_Base/Value": "enabled",
       "01_Brand/Performance": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -27,6 +29,7 @@
     "group": "Color",
     "description": "Luxury brand colors - elegant, refined",
     "selectedTokenSets": {
+      "_Base/Value": "enabled",
       "01_Brand/Luxury": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -62,7 +65,7 @@
     "group": "Spacing",
     "description": "Default spacing (8px base grid)",
     "selectedTokenSets": {
-      "_Base/Value": "enabled"
+      "02_Spacing/Standard": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaStyleReferences": {}
@@ -73,8 +76,7 @@
     "group": "Spacing",
     "description": "Compact spacing (6px base, 0.75x multiplier)",
     "selectedTokenSets": {
-      "_Base/Value": "enabled",
-      "01_Brand/Performance": "enabled"
+      "02_Spacing/Performance": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaStyleReferences": {}
@@ -85,8 +87,7 @@
     "group": "Spacing",
     "description": "Spacious spacing (10px base, 1.25x multiplier)",
     "selectedTokenSets": {
-      "_Base/Value": "enabled",
-      "01_Brand/Luxury": "enabled"
+      "02_Spacing/Luxury": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaStyleReferences": {}
@@ -97,7 +98,8 @@
     "group": "Typography",
     "description": "Standard typography (tt commons pro, balanced weights)",
     "selectedTokenSets": {
-      "_Base/Value": "enabled"
+      "_Base/Value": "enabled",
+      "01_Brand/Default": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaStyleReferences": {}

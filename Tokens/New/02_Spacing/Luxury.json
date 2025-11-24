@@ -1,0 +1,84 @@
+{
+  "spacing": {
+    "2": {
+      "value": 3,
+      "type": "dimension",
+      "description": "Luxury: 2px \u00d7 1.25 = 3px (spacious, generous layout)"
+    },
+    "3": {
+      "value": 4,
+      "type": "dimension",
+      "description": "Luxury: 3px \u00d7 1.25 \u2248 4px"
+    },
+    "4": {
+      "value": 5,
+      "type": "dimension",
+      "description": "Luxury: 4px \u00d7 1.25 = 5px"
+    },
+    "5": {
+      "value": 7,
+      "type": "dimension",
+      "description": "Luxury: 5px \u00d7 1.25 \u2248 7px"
+    },
+    "6": {
+      "value": 8,
+      "type": "dimension",
+      "description": "Luxury: 6px \u00d7 1.25 = 8px"
+    },
+    "8": {
+      "value": 10,
+      "type": "dimension",
+      "description": "Luxury: 8px \u00d7 1.25 = 10px"
+    },
+    "10": {
+      "value": 13,
+      "type": "dimension",
+      "description": "Luxury: 10px \u00d7 1.25 \u2248 13px"
+    },
+    "12": {
+      "value": 15,
+      "type": "dimension",
+      "description": "Luxury: 12px \u00d7 1.25 = 15px"
+    },
+    "16": {
+      "value": 20,
+      "type": "dimension",
+      "description": "Luxury: 16px \u00d7 1.25 = 20px"
+    },
+    "20": {
+      "value": 25,
+      "type": "dimension",
+      "description": "Luxury: 20px \u00d7 1.25 = 25px"
+    },
+    "24": {
+      "value": 30,
+      "type": "dimension",
+      "description": "Luxury: 24px \u00d7 1.25 = 30px"
+    },
+    "32": {
+      "value": 40,
+      "type": "dimension",
+      "description": "Luxury: 32px \u00d7 1.25 = 40px"
+    },
+    "40": {
+      "value": 50,
+      "type": "dimension",
+      "description": "Luxury: 40px \u00d7 1.25 = 50px"
+    },
+    "48": {
+      "value": 60,
+      "type": "dimension",
+      "description": "Luxury: 48px \u00d7 1.25 = 60px"
+    },
+    "56": {
+      "value": 70,
+      "type": "dimension",
+      "description": "Luxury: 56px \u00d7 1.25 = 70px"
+    },
+    "64": {
+      "value": 80,
+      "type": "dimension",
+      "description": "Luxury: 64px \u00d7 1.25 = 80px"
+    }
+  }
+}

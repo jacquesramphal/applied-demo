@@ -4,9 +4,10 @@
     "01_Brand/Default",
     "01_Brand/Performance",
     "01_Brand/Luxury",
-    "03_Themes/Dark",
-    "03_Themes/Light",
+    "03_Themes/Night",
+    "03_Themes/Day",
     "05_Interactions/States",
-    "07_Components/Compositions"
+    "07_Components/Compositions",
+    "04_Motion/Animations"
   ]
 }

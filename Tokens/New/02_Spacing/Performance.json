@@ -1,84 +1,129 @@
 {
   "spacing": {
-    "2": {
-      "value": 2,
+    "0": {
+      "value": 0,
       "type": "dimension",
-      "description": "Performance: 2px (compact, 0.75x multiplier - rounded)"
+      "description": "Performance: 0px \u00d7 0.5 = 0px (compact)"
+    },
+    "1": {
+      "value": 0,
+      "type": "dimension",
+      "description": "Performance: 1px \u00d7 0.5 = 0px (compact)"
+    },
+    "2": {
+      "value": 1,
+      "type": "dimension",
+      "description": "Performance: 2px \u00d7 0.5 = 1px (compact)"
     },
     "3": {
-      "value": 2,
+      "value": 1,
       "type": "dimension",
-      "description": "Performance: 3px \u00d7 0.75 \u2248 2px"
+      "description": "Performance: 3px \u00d7 0.5 = 1px (compact)"
     },
     "4": {
-      "value": 3,
+      "value": 2,
       "type": "dimension",
-      "description": "Performance: 4px \u00d7 0.75 = 3px"
+      "description": "Performance: 4px \u00d7 0.5 = 2px (compact)"
     },
     "5": {
-      "value": 4,
+      "value": 2,
       "type": "dimension",
-      "description": "Performance: 5px \u00d7 0.75 \u2248 4px"
+      "description": "Performance: 5px \u00d7 0.5 = 2px (compact)"
     },
     "6": {
-      "value": 5,
+      "value": 3,
       "type": "dimension",
-      "description": "Performance: 6px \u00d7 0.75 = 5px"
+      "description": "Performance: 6px \u00d7 0.5 = 3px (compact)"
+    },
+    "7": {
+      "value": 3,
+      "type": "dimension",
+      "description": "Performance: 7px \u00d7 0.5 = 3px (compact)"
     },
     "8": {
-      "value": 6,
+      "value": 4,
       "type": "dimension",
-      "description": "Performance: 8px \u00d7 0.75 = 6px"
+      "description": "Performance: 8px \u00d7 0.5 = 4px (compact)"
     },
     "10": {
-      "value": 8,
+      "value": 5,
       "type": "dimension",
-      "description": "Performance: 10px \u00d7 0.75 = 8px"
+      "description": "Performance: 10px \u00d7 0.5 = 5px (compact)"
     },
     "12": {
-      "value": 9,
+      "value": 6,
       "type": "dimension",
-      "description": "Performance: 12px \u00d7 0.75 = 9px"
+      "description": "Performance: 12px \u00d7 0.5 = 6px (compact)"
+    },
+    "14": {
+      "value": 7,
+      "type": "dimension",
+      "description": "Performance: 14px \u00d7 0.5 = 7px (compact)"
     },
     "16": {
-      "value": 12,
+      "value": 8,
       "type": "dimension",
-      "description": "Performance: 16px \u00d7 0.75 = 12px"
+      "description": "Performance: 16px \u00d7 0.5 = 8px (compact)"
+    },
+    "18": {
+      "value": 9,
+      "type": "dimension",
+      "description": "Performance: 18px \u00d7 0.5 = 9px (compact)"
     },
     "20": {
-      "value": 15,
+      "value": 10,
       "type": "dimension",
-      "description": "Performance: 20px \u00d7 0.75 = 15px"
+      "description": "Performance: 20px \u00d7 0.5 = 10px (compact)"
+    },
+    "22": {
+      "value": 11,
+      "type": "dimension",
+      "description": "Performance: 22px \u00d7 0.5 = 11px (compact)"
     },
     "24": {
-      "value": 18,
+      "value": 12,
       "type": "dimension",
-      "description": "Performance: 24px \u00d7 0.75 = 18px"
+      "description": "Performance: 24px \u00d7 0.5 = 12px (compact)"
+    },
+    "28": {
+      "value": 14,
+      "type": "dimension",
+      "description": "Performance: 28px \u00d7 0.5 = 14px (compact)"
     },
     "32": {
-      "value": 24,
+      "value": 16,
       "type": "dimension",
-      "description": "Performance: 32px \u00d7 0.75 = 24px"
+      "description": "Performance: 32px \u00d7 0.5 = 16px (compact)"
+    },
+    "36": {
+      "value": 18,
+      "type": "dimension",
+      "description": "Performance: 36px \u00d7 0.5 = 18px (compact)"
     },
     "40": {
-      "value": 30,
+      "value": 20,
       "type": "dimension",
-      "description": "Performance: 40px \u00d7 0.75 = 30px"
+      "description": "Performance: 40px \u00d7 0.5 = 20px (compact)"
+    },
+    "44": {
+      "value": 22,
+      "type": "dimension",
+      "description": "Performance: 44px \u00d7 0.5 = 22px (compact)"
     },
     "48": {
-      "value": 36,
+      "value": 24,
       "type": "dimension",
-      "description": "Performance: 48px \u00d7 0.75 = 36px"
+      "description": "Performance: 48px \u00d7 0.5 = 24px (compact)"
     },
     "56": {
-      "value": 42,
+      "value": 28,
       "type": "dimension",
-      "description": "Performance: 56px \u00d7 0.75 = 42px"
+      "description": "Performance: 56px \u00d7 0.5 = 28px (compact)"
     },
     "64": {
-      "value": 48,
+      "value": 32,
       "type": "dimension",
-      "description": "Performance: 64px \u00d7 0.75 = 48px"
+      "description": "Performance: 64px \u00d7 0.5 = 32px (compact)"
     }
   }
 }

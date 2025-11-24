@@ -1,84 +1,129 @@
 {
   "spacing": {
-    "2": {
-      "value": 3,
+    "0": {
+      "value": 0,
       "type": "dimension",
-      "description": "Luxury: 2px \u00d7 1.25 = 3px (spacious, generous layout)"
+      "description": "Luxury: 0px \u00d7 2 = 0px (spacious)"
     },
-    "3": {
+    "1": {
+      "value": 2,
+      "type": "dimension",
+      "description": "Luxury: 1px \u00d7 2 = 2px (spacious)"
+    },
+    "2": {
       "value": 4,
       "type": "dimension",
-      "description": "Luxury: 3px \u00d7 1.25 \u2248 4px"
+      "description": "Luxury: 2px \u00d7 2 = 4px (spacious)"
+    },
+    "3": {
+      "value": 6,
+      "type": "dimension",
+      "description": "Luxury: 3px \u00d7 2 = 6px (spacious)"
     },
     "4": {
-      "value": 5,
-      "type": "dimension",
-      "description": "Luxury: 4px \u00d7 1.25 = 5px"
-    },
-    "5": {
-      "value": 7,
-      "type": "dimension",
-      "description": "Luxury: 5px \u00d7 1.25 \u2248 7px"
-    },
-    "6": {
       "value": 8,
       "type": "dimension",
-      "description": "Luxury: 6px \u00d7 1.25 = 8px"
+      "description": "Luxury: 4px \u00d7 2 = 8px (spacious)"
     },
-    "8": {
+    "5": {
       "value": 10,
       "type": "dimension",
-      "description": "Luxury: 8px \u00d7 1.25 = 10px"
+      "description": "Luxury: 5px \u00d7 2 = 10px (spacious)"
+    },
+    "6": {
+      "value": 12,
+      "type": "dimension",
+      "description": "Luxury: 6px \u00d7 2 = 12px (spacious)"
+    },
+    "7": {
+      "value": 14,
+      "type": "dimension",
+      "description": "Luxury: 7px \u00d7 2 = 14px (spacious)"
+    },
+    "8": {
+      "value": 16,
+      "type": "dimension",
+      "description": "Luxury: 8px \u00d7 2 = 16px (spacious)"
     },
     "10": {
-      "value": 13,
-      "type": "dimension",
-      "description": "Luxury: 10px \u00d7 1.25 \u2248 13px"
-    },
-    "12": {
-      "value": 15,
-      "type": "dimension",
-      "description": "Luxury: 12px \u00d7 1.25 = 15px"
-    },
-    "16": {
       "value": 20,
       "type": "dimension",
-      "description": "Luxury: 16px \u00d7 1.25 = 20px"
+      "description": "Luxury: 10px \u00d7 2 = 20px (spacious)"
+    },
+    "12": {
+      "value": 24,
+      "type": "dimension",
+      "description": "Luxury: 12px \u00d7 2 = 24px (spacious)"
+    },
+    "14": {
+      "value": 28,
+      "type": "dimension",
+      "description": "Luxury: 14px \u00d7 2 = 28px (spacious)"
+    },
+    "16": {
+      "value": 32,
+      "type": "dimension",
+      "description": "Luxury: 16px \u00d7 2 = 32px (spacious)"
+    },
+    "18": {
+      "value": 36,
+      "type": "dimension",
+      "description": "Luxury: 18px \u00d7 2 = 36px (spacious)"
     },
     "20": {
-      "value": 25,
-      "type": "dimension",
-      "description": "Luxury: 20px \u00d7 1.25 = 25px"
-    },
-    "24": {
-      "value": 30,
-      "type": "dimension",
-      "description": "Luxury: 24px \u00d7 1.25 = 30px"
-    },
-    "32": {
       "value": 40,
       "type": "dimension",
-      "description": "Luxury: 32px \u00d7 1.25 = 40px"
+      "description": "Luxury: 20px \u00d7 2 = 40px (spacious)"
+    },
+    "22": {
+      "value": 44,
+      "type": "dimension",
+      "description": "Luxury: 22px \u00d7 2 = 44px (spacious)"
+    },
+    "24": {
+      "value": 48,
+      "type": "dimension",
+      "description": "Luxury: 24px \u00d7 2 = 48px (spacious)"
+    },
+    "28": {
+      "value": 56,
+      "type": "dimension",
+      "description": "Luxury: 28px \u00d7 2 = 56px (spacious)"
+    },
+    "32": {
+      "value": 64,
+      "type": "dimension",
+      "description": "Luxury: 32px \u00d7 2 = 64px (spacious)"
+    },
+    "36": {
+      "value": 72,
+      "type": "dimension",
+      "description": "Luxury: 36px \u00d7 2 = 72px (spacious)"
     },
     "40": {
-      "value": 50,
-      "type": "dimension",
-      "description": "Luxury: 40px \u00d7 1.25 = 50px"
-    },
-    "48": {
-      "value": 60,
-      "type": "dimension",
-      "description": "Luxury: 48px \u00d7 1.25 = 60px"
-    },
-    "56": {
-      "value": 70,
-      "type": "dimension",
-      "description": "Luxury: 56px \u00d7 1.25 = 70px"
-    },
-    "64": {
       "value": 80,
       "type": "dimension",
-      "description": "Luxury: 64px \u00d7 1.25 = 80px"
+      "description": "Luxury: 40px \u00d7 2 = 80px (spacious)"
+    },
+    "44": {
+      "value": 88,
+      "type": "dimension",
+      "description": "Luxury: 44px \u00d7 2 = 88px (spacious)"
+    },
+    "48": {
+      "value": 96,
+      "type": "dimension",
+      "description": "Luxury: 48px \u00d7 2 = 96px (spacious)"
+    },
+    "56": {
+      "value": 112,
+      "type": "dimension",
+      "description": "Luxury: 56px \u00d7 2 = 112px (spacious)"
+    },
+    "64": {
+      "value": 128,
+      "type": "dimension",
+      "description": "Luxury: 64px \u00d7 2 = 128px (spacious)"
     }
   }
 }

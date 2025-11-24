@@ -1,3 +1,38 @@
 {
-  "color": {}
+  "color": {
+    "surface": {
+      "primary": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Day: Light white surface - primary background"
+      },
+      "secondary": {
+        "value": "#F5F5F5",
+        "type": "color",
+        "description": "Day: Light gray surface - secondary background"
+      },
+      "tertiary": {
+        "value": "#E8E8E8",
+        "type": "color",
+        "description": "Day: Light gray surface - tertiary background"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#1A1A1A",
+        "type": "color",
+        "description": "Day: Dark text - primary"
+      },
+      "secondary": {
+        "value": "#4A4A4A",
+        "type": "color",
+        "description": "Day: Medium gray text - secondary"
+      },
+      "tertiary": {
+        "value": "#7A7A7A",
+        "type": "color",
+        "description": "Day: Light gray text - tertiary/disabled"
+      }
+    }
+  }
 }

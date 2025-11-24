@@ -3,67 +3,82 @@
     "spacing-2": {
       "value": 2,
       "type": "dimension",
-      "description": "Compact: 2px (dense layout)"
+      "description": "Compact: 2px (dense layout, 0.75x multiplier - rounded)"
     },
     "spacing-3": {
       "value": 2,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Compact: 3px × 0.75 ≈ 2px"
     },
     "spacing-4": {
       "value": 3,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Compact: 4px × 0.75 = 3px"
     },
     "spacing-5": {
       "value": 4,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Compact: 5px × 0.75 ≈ 4px"
     },
     "spacing-6": {
       "value": 5,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Compact: 6px × 0.75 = 5px"
     },
     "spacing-8": {
-      "value": 7,
-      "type": "dimension"
+      "value": 6,
+      "type": "dimension",
+      "description": "Compact: 8px × 0.75 = 6px"
     },
     "spacing-10": {
       "value": 8,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Compact: 10px × 0.75 = 8px"
     },
     "spacing-12": {
-      "value": 10,
-      "type": "dimension"
+      "value": 9,
+      "type": "dimension",
+      "description": "Compact: 12px × 0.75 = 9px"
     },
     "spacing-16": {
-      "value": 14,
-      "type": "dimension"
+      "value": 12,
+      "type": "dimension",
+      "description": "Compact: 16px × 0.75 = 12px"
     },
     "spacing-20": {
-      "value": 17,
-      "type": "dimension"
+      "value": 15,
+      "type": "dimension",
+      "description": "Compact: 20px × 0.75 = 15px"
     },
     "spacing-24": {
-      "value": 20,
-      "type": "dimension"
+      "value": 18,
+      "type": "dimension",
+      "description": "Compact: 24px × 0.75 = 18px"
     },
     "spacing-32": {
-      "value": 27,
-      "type": "dimension"
+      "value": 24,
+      "type": "dimension",
+      "description": "Compact: 32px × 0.75 = 24px"
     },
     "spacing-40": {
-      "value": 34,
-      "type": "dimension"
+      "value": 30,
+      "type": "dimension",
+      "description": "Compact: 40px × 0.75 = 30px"
     },
     "spacing-48": {
-      "value": 41,
-      "type": "dimension"
+      "value": 36,
+      "type": "dimension",
+      "description": "Compact: 48px × 0.75 = 36px"
     },
     "spacing-56": {
-      "value": 48,
-      "type": "dimension"
+      "value": 42,
+      "type": "dimension",
+      "description": "Compact: 56px × 0.75 = 42px"
     },
     "spacing-64": {
-      "value": 54,
-      "type": "dimension"
+      "value": 48,
+      "type": "dimension",
+      "description": "Compact: 64px × 0.75 = 48px"
     }
   },
   "borderRadius": {

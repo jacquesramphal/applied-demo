@@ -1,69 +1,84 @@
 {
   "spacing": {
     "spacing-2": {
-      "value": 2,
+      "value": 3,
       "type": "dimension",
-      "description": "Spacious: 2px (generous layout)"
+      "description": "Spacious: 2px × 1.25 = 3px (generous layout)"
     },
     "spacing-3": {
-      "value": 3,
-      "type": "dimension"
+      "value": 4,
+      "type": "dimension",
+      "description": "Spacious: 3px × 1.25 ≈ 4px"
     },
     "spacing-4": {
       "value": 5,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Spacious: 4px × 1.25 = 5px"
     },
     "spacing-5": {
-      "value": 6,
-      "type": "dimension"
+      "value": 7,
+      "type": "dimension",
+      "description": "Spacious: 5px × 1.25 ≈ 7px"
     },
     "spacing-6": {
-      "value": 7,
-      "type": "dimension"
+      "value": 8,
+      "type": "dimension",
+      "description": "Spacious: 6px × 1.25 = 8px"
     },
     "spacing-8": {
-      "value": 9,
-      "type": "dimension"
+      "value": 10,
+      "type": "dimension",
+      "description": "Spacious: 8px × 1.25 = 10px"
     },
     "spacing-10": {
-      "value": 12,
-      "type": "dimension"
+      "value": 13,
+      "type": "dimension",
+      "description": "Spacious: 10px × 1.25 ≈ 13px"
     },
     "spacing-12": {
-      "value": 14,
-      "type": "dimension"
+      "value": 15,
+      "type": "dimension",
+      "description": "Spacious: 12px × 1.25 = 15px"
     },
     "spacing-16": {
-      "value": 18,
-      "type": "dimension"
+      "value": 20,
+      "type": "dimension",
+      "description": "Spacious: 16px × 1.25 = 20px"
     },
     "spacing-20": {
-      "value": 23,
-      "type": "dimension"
+      "value": 25,
+      "type": "dimension",
+      "description": "Spacious: 20px × 1.25 = 25px"
     },
     "spacing-24": {
-      "value": 28,
-      "type": "dimension"
+      "value": 30,
+      "type": "dimension",
+      "description": "Spacious: 24px × 1.25 = 30px"
     },
     "spacing-32": {
-      "value": 37,
-      "type": "dimension"
+      "value": 40,
+      "type": "dimension",
+      "description": "Spacious: 32px × 1.25 = 40px"
     },
     "spacing-40": {
-      "value": 46,
-      "type": "dimension"
+      "value": 50,
+      "type": "dimension",
+      "description": "Spacious: 40px × 1.25 = 50px"
     },
     "spacing-48": {
-      "value": 55,
-      "type": "dimension"
+      "value": 60,
+      "type": "dimension",
+      "description": "Spacious: 48px × 1.25 = 60px"
     },
     "spacing-56": {
-      "value": 64,
-      "type": "dimension"
+      "value": 70,
+      "type": "dimension",
+      "description": "Spacious: 56px × 1.25 = 70px"
     },
     "spacing-64": {
-      "value": 74,
-      "type": "dimension"
+      "value": 80,
+      "type": "dimension",
+      "description": "Spacious: 64px × 1.25 = 80px"
     }
   },
   "borderRadius": {

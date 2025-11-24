@@ -1,7 +1,7 @@
 [
   {
     "id": "brand-standard",
-    "name": "Standard",
+    "name": "Brand: Standard",
     "group": "Brand",
     "description": "Standard brand - Default spacing (8px base grid), balanced colors & typography",
     "selectedTokenSets": {
@@ -356,7 +356,7 @@
   },
   {
     "id": "brand-performance",
-    "name": "Performance",
+    "name": "Brand: Performance",
     "group": "Brand",
     "description": "Performance brand - Compact spacing (6px dense), high-contrast colors & bold typography",
     "selectedTokenSets": {
@@ -687,7 +687,7 @@
   },
   {
     "id": "brand-luxury",
-    "name": "Luxury",
+    "name": "Brand: Luxury",
     "group": "Brand",
     "description": "Luxury brand - Spacious spacing (10px generous), elegant colors & refined typography",
     "selectedTokenSets": {
@@ -1042,7 +1042,7 @@
   },
   {
     "id": "theme-day",
-    "name": "Day",
+    "name": "Theme: Day",
     "group": "Theme",
     "description": "Day color theme - Apply on top of any brand mode",
     "selectedTokenSets": {
@@ -1359,7 +1359,7 @@
   },
   {
     "id": "theme-night",
-    "name": "Night",
+    "name": "Theme: Night",
     "group": "Theme",
     "description": "Night color theme - Apply on top of any brand mode",
     "selectedTokenSets": {

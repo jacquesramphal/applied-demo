@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COMPREHENSIVE TYPOGRAPHY TOKENS -->
+    <!-- Combines font sizes, line heights, font weights, letter spacing, text case, and font families -->
+
+    <!-- ========== TYPOGRAPHY COMPOSITIONS (font families, letter spacing) ========== -->
+    <string name="typography_body_100_font_family">serif</string>
+    <string name="typography_body_100_letter_spacing">0.4</string>
+    <string name="typography_body_60_font_family">serif</string>
+    <string name="typography_body_60_letter_spacing">-0.5</string>
+    <string name="typography_body_70_font_family">serif</string>
+    <string name="typography_body_70_letter_spacing">-0.5</string>
+    <string name="typography_body_80_font_family">serif</string>
+    <string name="typography_body_80_letter_spacing">0.3</string>
+    <string name="typography_body_90_font_family">serif</string>
+    <string name="typography_body_90_letter_spacing">0</string>
+    <string name="typography_display_100_font_family">serif</string>
+    <string name="typography_display_100_letter_spacing">-1</string>
+    <string name="typography_display_30_font_family">serif</string>
+    <string name="typography_display_30_letter_spacing">-0.5</string>
+    <string name="typography_display_40_font_family">serif</string>
+    <string name="typography_display_40_letter_spacing">-0.5</string>
+    <string name="typography_display_50_font_family">serif</string>
+    <string name="typography_display_50_letter_spacing">0</string>
+    <string name="typography_display_60_font_family">serif</string>
+    <string name="typography_display_60_letter_spacing">0</string>
+    <string name="typography_display_70_font_family">serif</string>
+    <string name="typography_display_70_letter_spacing">0.4</string>
+    <string name="typography_display_80_font_family">serif</string>
+    <string name="typography_display_80_letter_spacing">-0.5</string>
+    <string name="typography_display_90_font_family">serif</string>
+    <string name="typography_display_90_letter_spacing">0.4</string>
+    <string name="typography_heading_100_font_family">serif</string>
+    <string name="typography_heading_100_letter_spacing">0.2</string>
+    <string name="typography_heading_50_font_family">serif</string>
+    <string name="typography_heading_50_letter_spacing">-0.5</string>
+    <string name="typography_heading_60_font_family">serif</string>
+    <string name="typography_heading_60_letter_spacing">-0.5</string>
+    <string name="typography_heading_70_font_family">serif</string>
+    <string name="typography_heading_70_letter_spacing">0</string>
+    <string name="typography_heading_80_font_family">serif</string>
+    <string name="typography_heading_80_letter_spacing">0.3</string>
+    <string name="typography_heading_90_font_family">serif</string>
+    <string name="typography_heading_90_letter_spacing">0</string>
+    <string name="typography_label_100_font_family">serif</string>
+    <string name="typography_label_100_letter_spacing">0.6</string>
+    <string name="typography_label_70_font_family">serif</string>
+    <string name="typography_label_70_letter_spacing">-0.5</string>
+    <string name="typography_label_80_font_family">serif</string>
+    <string name="typography_label_80_letter_spacing">-0.5</string>
+    <string name="typography_label_90_font_family">serif</string>
+    <string name="typography_label_90_letter_spacing">-0.5</string>
+
+    <!-- ========== FONT SIZES ========== -->
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_48">48sp</dimen>
+    <dimen name="font_size_56">56sp</dimen>
+    <dimen name="font_size_64">64sp</dimen>
+    <dimen name="font_size_72">72sp</dimen>
+    <dimen name="font_size_80">80sp</dimen>
+    <dimen name="font_size_96">96sp</dimen>
+    <dimen name="font_size_120">120sp</dimen>
+    <dimen name="font_size_140">140sp</dimen>
+    <dimen name="font_size_160">160sp</dimen>
+    <dimen name="font_size_180">180sp</dimen>
+
+    <!-- ========== LINE HEIGHTS ========== -->
+    <dimen name="line_height_16">16sp</dimen>
+    <dimen name="line_height_20">20sp</dimen>
+    <dimen name="line_height_24">24sp</dimen>
+    <dimen name="line_height_28">28sp</dimen>
+    <dimen name="line_height_32">32sp</dimen>
+    <dimen name="line_height_36">36sp</dimen>
+    <dimen name="line_height_40">40sp</dimen>
+    <dimen name="line_height_44">44sp</dimen>
+    <dimen name="line_height_48">48sp</dimen>
+    <dimen name="line_height_56">56sp</dimen>
+    <dimen name="line_height_72">72sp</dimen>
+    <dimen name="line_height_106">106sp</dimen>
+    <dimen name="line_height_116">116sp</dimen>
+
+    <!-- ========== FONT WEIGHTS ========== -->
+    <integer name="font_weight_bold">700</integer>
+    <integer name="font_weight_light">300</integer>
+    <integer name="font_weight_medium">500</integer>
+    <integer name="font_weight_regular">400</integer>
+    <integer name="font_weight_semibold">600</integer>
+
+    <!-- ========== TEXT CASE ========== -->
+    <string name="text_case_capitalize">capitalize</string>
+    <string name="text_case_lowercase">lowercase</string>
+    <string name="text_case_none">none</string>
+    <string name="text_case_uppercase">uppercase</string>
+
+</resources>

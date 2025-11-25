@@ -1,0 +1,80 @@
+package com.example.hmithemedemo.ui.theme.luxury_night
+
+import androidx.compose.ui.unit.dp
+
+object SpacingTokens {
+    // 0 (variants: spacing, compact, spacious)
+    val _0 = 0.dp
+
+    // 1 (variants: spacing, compact, spacious)
+    val _1 = 2.dp
+
+    // 2 (variants: spacing, compact, spacious)
+    val _2 = 4.dp
+
+    // 3 (variants: spacing, compact, spacious)
+    val _3 = 6.dp
+
+    // 4 (variants: spacing, compact, spacious)
+    val _4 = 8.dp
+
+    // 5 (variants: spacing, compact, spacious)
+    val _5 = 10.dp
+
+    // 6 (variants: spacing, compact, spacious)
+    val _6 = 12.dp
+
+    // 7 (variants: spacing, compact, spacious)
+    val _7 = 14.dp
+
+    // 8 (variants: spacing, compact, spacious)
+    val _8 = 16.dp
+
+    // 10 (variants: spacing, compact, spacious)
+    val _10 = 20.dp
+
+    // 12 (variants: spacing, compact, spacious)
+    val _12 = 24.dp
+
+    // 14 (variants: spacing, compact, spacious)
+    val _14 = 28.dp
+
+    // 16 (variants: spacing, compact, spacious)
+    val _16 = 32.dp
+
+    // 18 (variants: spacing, compact, spacious)
+    val _18 = 36.dp
+
+    // 20 (variants: spacing, compact, spacious)
+    val _20 = 40.dp
+
+    // 22 (variants: spacing, compact, spacious)
+    val _22 = 44.dp
+
+    // 24 (variants: spacing, compact, spacious)
+    val _24 = 48.dp
+
+    // 28 (variants: spacing, compact, spacious)
+    val _28 = 56.dp
+
+    // 32 (variants: spacing, compact, spacious)
+    val _32 = 64.dp
+
+    // 36 (variants: spacing, compact, spacious)
+    val _36 = 72.dp
+
+    // 40 (variants: spacing, compact, spacious)
+    val _40 = 80.dp
+
+    // 44 (variants: spacing, compact, spacious)
+    val _44 = 88.dp
+
+    // 48 (variants: spacing, compact, spacious)
+    val _48 = 96.dp
+
+    // 56 (variants: spacing, compact, spacious)
+    val _56 = 112.dp
+
+    // 64 (variants: spacing, compact, spacious)
+    val _64 = 128.dp
+}

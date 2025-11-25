@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Tokens Preview - Brand & Theme Switcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link id="token-theme" rel="stylesheet" href="_TransformedTokens/css/default_day/tokens.css">
+</head>
+<body>
+    <div class="preview-container">
+        <!-- Header with Controls -->
+        <header class="preview-header">
+            <div class="header-content">
+                <h1>Design Tokens Preview</h1>
+                <p class="subtitle">Interactive component and token viewer with brand/theme switching</p>
+                
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="brand-select">Brand:</label>
+                        <select id="brand-select" class="control-select">
+                            <option value="default">Default</option>
+                            <option value="performance">Performance</option>
+                            <option value="luxury">Luxury</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="theme-select">Theme:</label>
+                        <select id="theme-select" class="control-select">
+                            <option value="day">Day (Light)</option>
+                            <option value="night">Night (Dark)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <button id="toggle-tokens" class="btn-toggle">Show Tokens</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="preview-main">
+            <!-- Components Section -->
+            <section class="components-section">
+                <h2>Components</h2>
+                
+                <!-- Buttons -->
+                <div class="component-group">
+                    <h3>Buttons</h3>
+                    <div class="component-demo">
+                        <button class="btn btn-primary">Primary Button</button>
+                        <button class="btn btn-secondary">Secondary Button</button>
+                        <button class="btn btn-tertiary">Tertiary Button</button>
+                        <button class="btn btn-primary" disabled>Disabled Button</button>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="component-group">
+                    <h3>Cards</h3>
+                    <div class="component-demo cards-grid">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Card Title</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>This is a card component using design tokens. It adapts to the selected brand and theme.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm">Action</button>
+                            </div>
+                        </div>
+                        
+                        <div class="card card-elevated">
+                            <div class="card-header">
+                                <h4>Elevated Card</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>This card has elevation applied, demonstrating shadow tokens.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inputs -->
+                <div class="component-group">
+                    <h3>Form Inputs</h3>
+                    <div class="component-demo">
+                        <div class="input-group">
+                            <label for="input-text">Text Input</label>
+                            <input type="text" id="input-text" placeholder="Enter text..." class="input">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="input-email">Email Input</label>
+                            <input type="email" id="input-email" placeholder="email@example.com" class="input">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>
+                                <input type="checkbox" class="checkbox">
+                                <span>Checkbox option</span>
+                            </label>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>
+                                <input type="radio" name="radio-group" class="radio">
+                                <span>Radio option 1</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="radio-group" class="radio">
+                                <span>Radio option 2</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Typography -->
+                <div class="component-group">
+                    <h3>Typography</h3>
+                    <div class="component-demo typography-demo">
+                        <h1 class="display">Display Heading</h1>
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <p class="body-large">Body Large - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="body">Body - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="body-small">Body Small - Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="label">Label Text</p>
+                    </div>
+                </div>
+
+                <!-- Color Palette -->
+                <div class="component-group">
+                    <h3>Color Palette</h3>
+                    <div class="component-demo">
+                        <div class="color-grid">
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-brand-primary-primary);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Brand Primary</span>
+                                    <span class="color-value" data-color="--color-brand-primary-primary"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-brand-primary-secondary);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Brand Secondary</span>
+                                    <span class="color-value" data-color="--color-brand-primary-secondary"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-functional-positive);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Positive</span>
+                                    <span class="color-value" data-color="--color-functional-positive"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-functional-warning);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Warning</span>
+                                    <span class="color-value" data-color="--color-functional-warning"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-surface-primary);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Surface Primary</span>
+                                    <span class="color-value" data-color="--color-surface-primary"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-surface-secondary);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Surface Secondary</span>
+                                    <span class="color-value" data-color="--color-surface-secondary"></span>
+                                </div>
+                            </div>
+                            <div class="color-swatch">
+                                <div class="color-box" style="background-color: var(--color-text-primary);"></div>
+                                <div class="color-info">
+                                    <span class="color-name">Text Primary</span>
+                                    <span class="color-value" data-color="--color-text-primary"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spacing Scale -->
+                <div class="component-group">
+                    <h3>Spacing Scale</h3>
+                    <div class="component-demo">
+                        <div class="spacing-demo">
+                            <div class="spacing-item" style="width: var(--spacing-4);">
+                                <span>4px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-8);">
+                                <span>8px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-12);">
+                                <span>12px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-16);">
+                                <span>16px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-24);">
+                                <span>24px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-32);">
+                                <span>32px</span>
+                            </div>
+                            <div class="spacing-item" style="width: var(--spacing-48);">
+                                <span>48px</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tokens Viewer (Hidden by default) -->
+            <aside class="tokens-viewer" id="tokens-viewer">
+                <div class="tokens-header">
+                    <h2>Design Tokens</h2>
+                    <button id="close-tokens" class="btn-close">×</button>
+                </div>
+                <div class="tokens-content" id="tokens-content">
+                    <!-- Tokens will be loaded here -->
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

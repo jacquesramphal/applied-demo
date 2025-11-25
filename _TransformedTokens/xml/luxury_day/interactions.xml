@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INTERACTION STATE TOKENS - Hover, active, focus, disabled, etc. -->
+
+    <!-- Active State -->
+    <dimen name="interaction_active_color_delta">-4dp</dimen>
+    <dimen name="interaction_active_opacity">0.76dp</dimen>
+
+    <!-- Disabled State -->
+    <dimen name="interaction_disabled_color_delta">1dp</dimen>
+    <dimen name="interaction_disabled_opacity">0.5dp</dimen>
+
+    <!-- Dragging State -->
+    <string name="interaction_dragging_box_shadow">0 8px 16px rgba(0, 0, 0, 0.2)</string>
+    <string name="interaction_dragging_cursor">grabbing</string>
+    <dimen name="interaction_dragging_opacity">0.75dp</dimen>
+
+    <!-- Error State -->
+    <color name="interaction_error_background_color">#fee4e2</color>
+    <color name="interaction_error_border_color">#912018</color>
+    <color name="interaction_error_color">#f04438</color>
+    <color name="interaction_error_text_color">#912018</color>
+
+    <!-- Focus State -->
+    <string name="interaction_focus_outline">2px solid {color.active-dark-primary}</string>
+    <string name="interaction_focus_ring_color">{color.active-dark-primary}</string>
+    <dimen name="interaction_focus_ring_offset">2dp</dimen>
+    <dimen name="interaction_focus_ring_width">2dp</dimen>
+
+    <!-- Hover State -->
+    <dimen name="interaction_hover_color_delta">-2dp</dimen>
+    <dimen name="interaction_hover_opacity">0.88dp</dimen>
+
+    <!-- Loading State -->
+    <string name="interaction_loading_cursor">wait</string>
+    <dimen name="interaction_loading_opacity">0.6dp</dimen>
+
+    <!-- Readonly State -->
+    <color name="interaction_readonly_background_color">#0000001a</color>
+    <string name="interaction_readonly_cursor">default</string>
+    <dimen name="interaction_readonly_opacity">0.6dp</dimen>
+    <color name="interaction_readonly_text_color">#00000099</color>
+
+    <!-- Selected State -->
+    <color name="interaction_selected_background_color">#f39c12</color>
+    <color name="interaction_selected_border_color">#b573d1</color>
+    <color name="interaction_selected_text_color">#b573d1</color>
+
+    <!-- Success State -->
+    <color name="interaction_success_background_color">#d1fadf</color>
+    <color name="interaction_success_border_color">#05603a</color>
+    <color name="interaction_success_color">#12b76a</color>
+    <color name="interaction_success_text_color">#05603a</color>
+
+    <!-- Warning State -->
+    <color name="interaction_warning_background_color">#fef0c7</color>
+    <color name="interaction_warning_border_color">#93370d</color>
+    <color name="interaction_warning_color">#f79009</color>
+    <color name="interaction_warning_text_color">#93370d</color>
+
+</resources>

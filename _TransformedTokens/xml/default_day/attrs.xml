@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ACCESSIBILITY TOKENS - WCAG AA compliant colors, focus indicators, high contrast -->
+
+    <!-- Focus Indicators (for keyboard navigation) -->
+    <color name="accessibility_focus_indicator">#1570ef</color>
+    <color name="accessibility_focus_indicator_dark">#2e90fa</color>
+
+</resources>

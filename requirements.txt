@@ -1,8 +1,0 @@
-# Applied Token Audit - Python Dependencies
-# This project uses Python standard library only
-
-# Development/Optional tools (if needed)
-# black==24.1.1          # Code formatter
-# pylint==3.0.3          # Code linter
-# pytest==7.4.3          # Testing framework
-

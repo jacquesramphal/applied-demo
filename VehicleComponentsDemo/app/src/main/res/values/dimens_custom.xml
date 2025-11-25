@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom dimensions for vehicle components -->
+    <dimen name="icon_size_large">236dp</dimen>
+</resources>
+

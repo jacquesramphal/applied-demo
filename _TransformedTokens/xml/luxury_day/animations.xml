@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MOTION TOKENS - Durations, easing functions, and transitions -->
+
+    <!-- Durations (milliseconds) -->
+    <integer name="motion_duration_short">100</integer>
+    <integer name="motion_duration_medium">200</integer>
+    <integer name="motion_duration_long">300</integer>
+    <integer name="motion_duration_fast">150</integer>
+    <integer name="motion_duration_standard">300</integer>
+    <integer name="motion_duration_slow">500</integer>
+
+    <!-- Easing Functions -->
+    <string name="motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1)</string>
+    <string name="motion_easing_decelerate">cubic-bezier(0.0, 0.0, 0.2, 1)</string>
+    <string name="motion_easing_accelerate">cubic-bezier(0.4, 0.0, 1, 1)</string>
+    <string name="motion_easing_default">cubic-bezier(0.25, 0.46, 0.45, 0.94)</string>
+    <string name="motion_easing_entrance">cubic-bezier(0.34, 1.56, 0.64, 1)</string>
+    <string name="motion_easing_exit">cubic-bezier(0.66, 0, 0.66, 0.07)</string>
+    <string name="motion_easing_smooth">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="motion_easing_sharp">cubic-bezier(0.4, 0, 0.6, 1)</string>
+
+    <!-- Transitions (combined duration + easing) -->
+    <string name="motion_transition_fast_smooth">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="motion_transition_standard_smooth">300 cubic-bezier(0.25, 0.46, 0.45, 0.94)</string>
+    <string name="motion_transition_slow_smooth">500 cubic-bezier(0.25, 0.46, 0.45, 0.94)</string>
+    <string name="motion_transition_entrance_emphasis">300 cubic-bezier(0.34, 1.56, 0.64, 1)</string>
+    <string name="motion_transition_exit_emphasis">150 cubic-bezier(0.66, 0, 0.66, 0.07)</string>
+</resources>

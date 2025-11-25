@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BORDER RADIUS TOKENS - Corner rounding values -->
+
+    <dimen name="border_radius_0">0dp</dimen>
+    <dimen name="border_radius_4">4dp</dimen>
+    <dimen name="border_radius_8">8dp</dimen>
+    <dimen name="border_radius_16">16dp</dimen>
+    <dimen name="border_radius_24">24dp</dimen>
+</resources>

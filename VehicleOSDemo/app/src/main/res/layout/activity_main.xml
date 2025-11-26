@@ -8,21 +8,6 @@
     android:background="@color/color_surface_tertiary"
     tools:context=".MainActivity">
 
-    <!-- Brand Logo - Asset token URL loaded programmatically -->
-    <ImageView
-        android:id="@+id/brandLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:maxHeight="80dp"
-        android:maxWidth="200dp"
-        android:contentDescription="Brand logo"
-        android:scaleType="fitCenter"
-        android:layout_marginTop="@dimen/spacing_lg"
-        android:layout_marginBottom="@dimen/spacing_md"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <!-- RecyclerView with Grid Layout -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/componentsRecyclerView"
@@ -30,7 +15,7 @@
         android:layout_height="0dp"
         android:padding="@dimen/spacing_lg"
         android:clipToPadding="false"
-        app:layout_constraintTop_toBottomOf="@id/brandLogo"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />

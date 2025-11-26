@@ -1,24 +1,14 @@
 package com.example.vehicleosdemo
 
 import android.os.Bundle
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        // Load brand logo from asset token
-        val brandLogo = findViewById<ImageView>(R.id.brandLogo)
-        val brandLogoUrl = getString(R.string.asset_brand_logo)
-        Glide.with(this)
-            .load(brandLogoUrl)
-            .fitCenter()
-            .into(brandLogo)
 
         val recyclerView = findViewById<RecyclerView>(R.id.componentsRecyclerView)
         

@@ -87,7 +87,7 @@ _Docs/
 **Source Tokens** (JSON files in `Tokens/`):
 ```
 Tokens/
-├── _Base/Value.json              # Layer 1: Base primitives
+├── _Base/Value.json              # Layer 1: Base primitives (colors, spacing, typography scales, Typography compositions)
 ├── 01_Brand/                    # Layer 2: Brand overrides
 │   ├── Default.json              # Default brand (blue primary)
 │   ├── Performance.json          # Performance brand (orange primary)
@@ -99,6 +99,8 @@ Tokens/
 ├── 05_Interactions/States.json   # Layer 5: Interaction states
 └── 07_Components/Compositions.json  # Layer 6: Component compositions
 ```
+
+**Note:** The `_Base/Value.json` file includes 16 top-level token categories including a `Typography` section with 23 typography composition tokens (e.g., `display-80`, `heading-80`, `body-100`).
 
 **Generated Tokens** (Platform-specific outputs in `_TransformedTokens/`):
 ```
@@ -120,7 +122,8 @@ _TransformedTokens/
 - **Total Tokens**: 403+
 - **Color Tokens**: ~80
 - **Spacing Tokens**: ~40
-- **Typography Tokens**: ~50
+- **Typography Tokens**: ~50 (font sizes, line heights, weights)
+- **Typography Compositions**: 23 (pre-built typography combinations in `_Base/Value.json`)
 - **Component Tokens**: ~150+
 - **Motion Tokens**: ~30
 - **Other Tokens**: ~50+
@@ -269,10 +272,10 @@ cd VehicleOSDemo
 
 The token system is organized in 6 layers for scalability and maintainability:
 
-1. **Layer 1 - Primitives** (`_Base/Value.json`): Base color values, spacing scales, typography scales
+1. **Layer 1 - Primitives** (`_Base/Value.json`): Base color values, spacing scales, typography scales, and Typography compositions (23 pre-built typography combinations)
 2. **Layer 2 - Brand** (`01_Brand/`): Brand-specific overrides (Default, Performance, Luxury)
    - Each brand defines its own primary colors, typography preferences, and spacing overrides
-3. **Layer 3 - Global** (`02_Global.json`): Design system tokens (shared across brands)
+3. **Layer 3 - Global** (`02_Spacing/`): Reserved for global spacing tokens (currently spacing is in Layer 1)
 4. **Layer 4 - Themes** (`03_Themes/`): Theme-aware tokens (Day/Night modes)
    - Surface colors, background colors, and other theme-specific values
 5. **Layer 5 - Motion & Interactions** (`04_Motion/`, `05_Interactions/`): 
@@ -291,7 +294,7 @@ The token system is organized in 6 layers for scalability and maintainability:
 - ✅ **Multi-Brand Support** — 3 brands (Default, Performance, Luxury)
 - ✅ **Theme Support** — Day & Night themes for each brand
 - ✅ **One-Command Swapping** — Swap brands/themes with a single script
-- ✅ **Typography Compositions** — Brand-specific font families and letter spacing
+- ✅ **Typography Compositions** — 23 pre-built typography combinations (display-80, heading-80, body-100, etc.) in base tokens
 - ✅ **Brand-Specific Spacing** — Spacing tokens that vary per brand
 - ✅ **Responsive Design** — Compact & Spacious modes
 - ✅ **Enterprise Ready** — 403+ tokens, fully documented
@@ -318,6 +321,9 @@ A: One breaking change: `AppliedBlue` → `BrandPrimary`. See [MIGRATION_GUIDE.m
 
 **Q: Can I use AI to generate code from Figma?**  
 A: Yes! See [FIGMA_MCP_WORKFLOW.md](_Docs/02_Workflows/FIGMA_MCP_WORKFLOW.md) for the complete guide.
+
+**Q: What are Typography compositions?**  
+A: Pre-built typography combinations (23 total) in `_Base/Value.json` that combine font family, size, weight, line height, and letter spacing. Examples: `display-80`, `heading-80`, `body-100`. These provide consistent typography across the design system.
 
 ---
 

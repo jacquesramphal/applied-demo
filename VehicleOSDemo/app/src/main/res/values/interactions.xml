@@ -39,9 +39,9 @@
     <color name="interaction_readonly_text_color">#00000099</color>
 
     <!-- Selected State -->
-    <color name="interaction_selected_background_color">#f39c12</color>
-    <color name="interaction_selected_border_color">#b573d1</color>
-    <color name="interaction_selected_text_color">#b573d1</color>
+    <color name="interaction_selected_background_color">#829cfa</color>
+    <color name="interaction_selected_border_color">#6383f8</color>
+    <color name="interaction_selected_text_color">#335fff</color>
 
     <!-- Success State -->
     <color name="interaction_success_background_color">#d1fadf</color>

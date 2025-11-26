@@ -4,20 +4,52 @@
     <!-- Combines font sizes, line heights, font weights, letter spacing, text case, and font families -->
 
     <!-- ========== TYPOGRAPHY COMPOSITIONS (font families, letter spacing) ========== -->
-    <string name="typography_body_100_font_family">serif</string>
-    <string name="typography_body_100_letter_spacing">0.4</string>
-    <string name="typography_body_80_font_family">serif</string>
-    <string name="typography_body_80_letter_spacing">0.3</string>
-    <string name="typography_display_100_font_family">serif</string>
-    <string name="typography_display_100_letter_spacing">-1</string>
-    <string name="typography_display_80_font_family">serif</string>
-    <string name="typography_display_80_letter_spacing">-0.5</string>
-    <string name="typography_heading_100_font_family">serif</string>
-    <string name="typography_heading_100_letter_spacing">0.2</string>
-    <string name="typography_heading_80_font_family">serif</string>
-    <string name="typography_heading_80_letter_spacing">0.3</string>
-    <string name="typography_label_100_font_family">serif</string>
-    <string name="typography_label_100_letter_spacing">0.6</string>
+    <string name="typography_body_100_font_family">sans-serif</string>
+    <string name="typography_body_100_letter_spacing">0</string>
+    <string name="typography_body_60_font_family">sans-serif</string>
+    <string name="typography_body_60_letter_spacing">-0.5</string>
+    <string name="typography_body_70_font_family">sans-serif</string>
+    <string name="typography_body_70_letter_spacing">-0.5</string>
+    <string name="typography_body_80_font_family">sans-serif</string>
+    <string name="typography_body_80_letter_spacing">0</string>
+    <string name="typography_body_90_font_family">sans-serif</string>
+    <string name="typography_body_90_letter_spacing">0</string>
+    <string name="typography_display_100_font_family">sans-serif</string>
+    <string name="typography_display_100_letter_spacing">0.3</string>
+    <string name="typography_display_30_font_family">sans-serif</string>
+    <string name="typography_display_30_letter_spacing">-0.5</string>
+    <string name="typography_display_40_font_family">sans-serif</string>
+    <string name="typography_display_40_letter_spacing">-0.5</string>
+    <string name="typography_display_50_font_family">sans-serif</string>
+    <string name="typography_display_50_letter_spacing">0</string>
+    <string name="typography_display_60_font_family">sans-serif</string>
+    <string name="typography_display_60_letter_spacing">0</string>
+    <string name="typography_display_70_font_family">sans-serif</string>
+    <string name="typography_display_70_letter_spacing">0.3</string>
+    <string name="typography_display_80_font_family">sans-serif</string>
+    <string name="typography_display_80_letter_spacing">0.3</string>
+    <string name="typography_display_90_font_family">sans-serif</string>
+    <string name="typography_display_90_letter_spacing">0.3</string>
+    <string name="typography_heading_100_font_family">sans-serif</string>
+    <string name="typography_heading_100_letter_spacing">0</string>
+    <string name="typography_heading_50_font_family">sans-serif</string>
+    <string name="typography_heading_50_letter_spacing">-0.5</string>
+    <string name="typography_heading_60_font_family">sans-serif</string>
+    <string name="typography_heading_60_letter_spacing">-0.5</string>
+    <string name="typography_heading_70_font_family">sans-serif</string>
+    <string name="typography_heading_70_letter_spacing">0</string>
+    <string name="typography_heading_80_font_family">sans-serif</string>
+    <string name="typography_heading_80_letter_spacing">0</string>
+    <string name="typography_heading_90_font_family">sans-serif</string>
+    <string name="typography_heading_90_letter_spacing">0</string>
+    <string name="typography_label_100_font_family">sans-serif</string>
+    <string name="typography_label_100_letter_spacing">0</string>
+    <string name="typography_label_70_font_family">sans-serif</string>
+    <string name="typography_label_70_letter_spacing">-0.5</string>
+    <string name="typography_label_80_font_family">sans-serif</string>
+    <string name="typography_label_80_letter_spacing">-0.5</string>
+    <string name="typography_label_90_font_family">sans-serif</string>
+    <string name="typography_label_90_letter_spacing">-0.5</string>
 
     <!-- ========== FONT SIZES ========== -->
     <dimen name="font_size_10">10sp</dimen>

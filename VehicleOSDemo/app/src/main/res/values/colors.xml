@@ -2,16 +2,16 @@
 <resources>
     <!-- COLOR TOKENS - Generated from design tokens -->
 
-    <color name="color_active_active_dark_disabled">#d7a6e8</color>
-    <color name="color_active_active_dark_primary">#b573d1</color>
-    <color name="color_active_active_dark_secondary">#9b59b6</color>
-    <color name="color_active_active_light_disabled">#f39c12</color>
-    <color name="color_active_active_light_primary">#b573d1</color>
-    <color name="color_active_active_light_secondary">#f39c12</color>
+    <color name="color_active_active_dark_disabled">#c1cefc</color>
+    <color name="color_active_active_dark_primary">#335fff</color>
+    <color name="color_active_active_dark_secondary">#6383f8</color>
+    <color name="color_active_active_light_disabled">#e0e7fe</color>
+    <color name="color_active_active_light_primary">#6383f8</color>
+    <color name="color_active_active_light_secondary">#829cfa</color>
     <color name="color_amber_amber_10">#fef0c7</color>
     <color name="color_amber_amber_80">#93370d</color>
-    <color name="color_background_background_dark_primary">#3d2a4dff</color>
-    <color name="color_background_background_light_primary">#f5e6ccff</color>
+    <color name="color_background_background_dark_primary">#2c2c2cf2</color>
+    <color name="color_background_background_light_primary">#eaebeecc</color>
     <color name="color_blacks_black_1">#00000003</color>
     <color name="color_blacks_black_10">#0000001a</color>
     <color name="color_blacks_black_100_primary">#000000</color>
@@ -26,10 +26,10 @@
     <color name="color_blacks_black_70">#000000b3</color>
     <color name="color_blacks_black_80">#000000cc</color>
     <color name="color_blacks_black_90_default">#000000e6</color>
-    <color name="color_brand_primary_accent">#f39c12</color>
-    <color name="color_brand_primary_primary">#9b59b6</color>
-    <color name="color_brand_primary_secondary">#b573d1</color>
-    <color name="color_brand_primary_tertiary">#d7a6e8</color>
+    <color name="color_brand_primary_accent">#2fcedd</color>
+    <color name="color_brand_primary_primary">#335fff</color>
+    <color name="color_brand_primary_secondary">#6383f8</color>
+    <color name="color_brand_primary_tertiary">#829cfa</color>
     <color name="color_functional_caution">#f79009</color>
     <color name="color_functional_informative">#6b747e</color>
     <color name="color_functional_positive">#12b76a</color>

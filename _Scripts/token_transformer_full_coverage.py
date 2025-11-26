@@ -228,6 +228,23 @@ class FullCoverageTransformer:
 
     # ===== EXTRACTION METHODS =====
 
+    def extract_assets(self) -> Dict[str, str]:
+        """Extract all asset tokens from brand files."""
+        assets = {}
+        
+        # Extract brand assets (asset.brandLogo, etc.)
+        if "asset" in self.token_data:
+            asset_data = self.token_data["asset"]
+            if isinstance(asset_data, dict):
+                for name, token_def in asset_data.items():
+                    if isinstance(token_def, dict) and "value" in token_def:
+                        key = f"asset_{name}"
+                        value = self.resolve_reference(str(token_def["value"]))
+                        assets[key] = value
+        
+        self.log(f"Extracted {len(assets)} asset tokens", "info")
+        return assets
+
     def extract_colors(self) -> Dict[str, str]:
         """Extract all color tokens from primitives, brand, and theme."""
         colors = {}
@@ -516,11 +533,26 @@ class FullCoverageTransformer:
             "accessibility": self.extract_accessibility(),
             "interactions": self.extract_interactions(),
             "components": self.extract_components(),
+            "assets": self.extract_assets(),
         }
 
     # ===== XML OUTPUT GENERATION =====
 
     # ===== XML OUTPUT GENERATION =====
+
+    def generate_xml_assets(self, assets: Dict[str, str]) -> str:
+        """Generate assets.xml for asset tokens (URLs to images, icons, etc.)."""
+        xml = '<?xml version="1.0" encoding="utf-8"?>\n'
+        xml += '<resources>\n'
+        xml += '    <!-- ASSET TOKENS - URLs to brand assets (logos, images, icons) -->\n\n'
+        
+        for name, value in sorted(assets.items()):
+            if isinstance(value, str):
+                # Asset tokens are stored as string resources (URLs)
+                xml += f'    <string name="{self._to_snake_case(name)}">{value}</string>\n'
+        
+        xml += '</resources>\n'
+        return xml
 
     def generate_xml_colors(self, colors: Dict[str, str]) -> str:
         """Generate colors.xml."""
@@ -1808,7 +1840,7 @@ class FullCoverageTransformer:
         xml_root_files = [
             "colors.xml", "dimens.xml", "radius.xml", "typography.xml",
             "attrs.xml", "animations.xml", "interactions.xml", "components.xml",
-            "layout.xml", "platforms.xml"
+            "elevation.xml", "assets.xml", "layout.xml", "platforms.xml"
         ]
         
         # Remove XML root files
@@ -1880,6 +1912,8 @@ class FullCoverageTransformer:
         }
         
         # Add optional token files if they have content
+        if tokens.get("assets"):
+            outputs["assets.xml"] = self.generate_xml_assets(tokens["assets"])
         if tokens.get("layout"):
             outputs["layout.xml"] = self.generate_xml_layout(tokens["layout"])
         if tokens.get("platforms"):

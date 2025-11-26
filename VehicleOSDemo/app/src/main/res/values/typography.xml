@@ -4,12 +4,20 @@
     <!-- Combines font sizes, line heights, font weights, letter spacing, text case, and font families -->
 
     <!-- ========== TYPOGRAPHY COMPOSITIONS (font families, letter spacing) ========== -->
-    <string name="typography_body_100_font_family">sans-serif</string>
-    <string name="typography_body_100_letter_spacing">0.2</string>
-    <string name="typography_body_80_font_family">sans-serif</string>
-    <string name="typography_body_80_letter_spacing">0.1</string>
-    <string name="typography_heading_80_font_family">sans-serif</string>
-    <string name="typography_heading_80_letter_spacing">0.1</string>
+    <string name="typography_body_100_font_family">serif</string>
+    <string name="typography_body_100_letter_spacing">0.4</string>
+    <string name="typography_body_80_font_family">serif</string>
+    <string name="typography_body_80_letter_spacing">0.3</string>
+    <string name="typography_display_100_font_family">serif</string>
+    <string name="typography_display_100_letter_spacing">-1</string>
+    <string name="typography_display_80_font_family">serif</string>
+    <string name="typography_display_80_letter_spacing">-0.5</string>
+    <string name="typography_heading_100_font_family">serif</string>
+    <string name="typography_heading_100_letter_spacing">0.2</string>
+    <string name="typography_heading_80_font_family">serif</string>
+    <string name="typography_heading_80_letter_spacing">0.3</string>
+    <string name="typography_label_100_font_family">serif</string>
+    <string name="typography_label_100_letter_spacing">0.6</string>
 
     <!-- ========== FONT SIZES ========== -->
     <dimen name="font_size_10">10sp</dimen>

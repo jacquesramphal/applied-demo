@@ -13,13 +13,13 @@
     <dimen name="component_button_danger_default_vertical_padding">4dp</dimen>
     <color name="component_button_danger_hover_fill">#fda29b</color>
     <string name="component_button_danger_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
-    <color name="component_button_loading_fill">#53db14</color>
+    <color name="component_button_loading_fill">#dc143c</color>
     <string name="component_button_loading_opacity">0.6</string>
-    <color name="component_button_primary_active_fill">#53db14</color>
+    <color name="component_button_primary_active_fill">#dc143c</color>
     <string name="component_button_primary_active_opacity">0.76</string>
     <string name="component_button_primary_active_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <dimen name="component_button_primary_default_border_radius">4dp</dimen>
-    <color name="component_button_primary_default_fill">#53db14</color>
+    <color name="component_button_primary_default_fill">#dc143c</color>
     <dimen name="component_button_primary_default_font_size">24dp</dimen>
     <string name="component_button_primary_default_font_weight">600</string>
     <dimen name="component_button_primary_default_horizontal_padding">8dp</dimen>
@@ -39,7 +39,7 @@
     <dimen name="component_button_secondary_default_font_size">24dp</dimen>
     <string name="component_button_secondary_default_font_weight">600</string>
     <dimen name="component_button_secondary_default_horizontal_padding">8dp</dimen>
-    <color name="component_button_secondary_default_text_color">#53db14</color>
+    <color name="component_button_secondary_default_text_color">#dc143c</color>
     <dimen name="component_button_secondary_default_vertical_padding">4dp</dimen>
     <color name="component_button_secondary_disabled_border_color">#F5F5F5</color>
     <string name="component_button_secondary_disabled_cursor">not-allowed</string>
@@ -69,7 +69,7 @@
     <dimen name="component_button_tertiary_default_font_size">24dp</dimen>
     <string name="component_button_tertiary_default_font_weight">600</string>
     <dimen name="component_button_tertiary_default_horizontal_padding">4dp</dimen>
-    <color name="component_button_tertiary_default_text_color">#53db14</color>
+    <color name="component_button_tertiary_default_text_color">#dc143c</color>
     <dimen name="component_button_tertiary_default_vertical_padding">2dp</dimen>
     <color name="component_button_tertiary_hover_fill">#F5F5F5</color>
     <string name="component_button_tertiary_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
@@ -126,12 +126,12 @@
     <dimen name="component_card_large_padding">12dp</dimen>
 
     <!-- Checkbox Component -->
-    <color name="component_checkbox_checked_border_color">#53db14</color>
+    <color name="component_checkbox_checked_border_color">#dc143c</color>
     <color name="component_checkbox_checked_checkmark">#ffffff</color>
     <dimen name="component_checkbox_checked_checkmark_width">2dp</dimen>
-    <color name="component_checkbox_checked_fill">#53db14</color>
-    <color name="component_checkbox_checked_hover_border_color">#53db14</color>
-    <color name="component_checkbox_checked_hover_fill">#53db14</color>
+    <color name="component_checkbox_checked_fill">#dc143c</color>
+    <color name="component_checkbox_checked_hover_border_color">#dc143c</color>
+    <color name="component_checkbox_checked_hover_fill">#dc143c</color>
     <string name="component_checkbox_checked_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <color name="component_checkbox_default_border_color">#4A4A4A</color>
     <dimen name="component_checkbox_default_border_radius">2dp</dimen>
@@ -149,17 +149,17 @@
     <dimen name="component_checkbox_error_box_shadow_spread">0dp</dimen>
     <dimen name="component_checkbox_error_box_shadow_x">0dp</dimen>
     <dimen name="component_checkbox_error_box_shadow_y">2dp</dimen>
-    <string name="component_checkbox_focus_outline">2px solid #53db14</string>
+    <string name="component_checkbox_focus_outline">2px solid #dc143c</string>
     <string name="component_checkbox_focus_outline_offset">2px</string>
-    <color name="component_checkbox_hover_border_color">#53db14</color>
+    <color name="component_checkbox_hover_border_color">#dc143c</color>
     <dimen name="component_checkbox_hover_box_shadow_blur">4dp</dimen>
     <string name="component_checkbox_hover_box_shadow_color">rgba(0, 0, 0, 0.1)</string>
     <dimen name="component_checkbox_hover_box_shadow_spread">0dp</dimen>
     <dimen name="component_checkbox_hover_box_shadow_x">0dp</dimen>
     <dimen name="component_checkbox_hover_box_shadow_y">2dp</dimen>
     <string name="component_checkbox_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
-    <color name="component_checkbox_indeterminate_border_color">#53db14</color>
-    <color name="component_checkbox_indeterminate_fill">#53db14</color>
+    <color name="component_checkbox_indeterminate_border_color">#dc143c</color>
+    <color name="component_checkbox_indeterminate_fill">#dc143c</color>
     <dimen name="component_checkbox_label_font_size">24dp</dimen>
     <string name="component_checkbox_label_font_weight">500</string>
     <dimen name="component_checkbox_label_margin_left">8dp</dimen>
@@ -189,7 +189,7 @@
     <dimen name="component_input_error_text_font_size">20dp</dimen>
     <string name="component_input_error_text_font_weight">500</string>
     <color name="component_input_error_text_text_color">#fee4e2</color>
-    <color name="component_input_focus_border_color">#53db14</color>
+    <color name="component_input_focus_border_color">#dc143c</color>
     <dimen name="component_input_focus_box_shadow_blur">4dp</dimen>
     <string name="component_input_focus_box_shadow_color">rgba(0, 0, 0, 0.1)</string>
     <dimen name="component_input_focus_box_shadow_spread">0dp</dimen>
@@ -241,7 +241,7 @@
     <color name="component_modal_container_fill">#ffffff</color>
     <string name="component_modal_container_position">fixed</string>
     <string name="component_modal_container_z_index">1000</string>
-    <string name="component_modal_focus_outline">2px solid #53db14</string>
+    <string name="component_modal_focus_outline">2px solid #dc143c</string>
     <string name="component_modal_focus_outline_offset">2px</string>
     <color name="component_modal_footer_border_top_color">#F5F5F5</color>
     <dimen name="component_modal_footer_border_top_width">1dp</dimen>
@@ -326,9 +326,9 @@
     <dimen name="component_radio_error_box_shadow_spread">0dp</dimen>
     <dimen name="component_radio_error_box_shadow_x">0dp</dimen>
     <dimen name="component_radio_error_box_shadow_y">2dp</dimen>
-    <string name="component_radio_focus_outline">2px solid #53db14</string>
+    <string name="component_radio_focus_outline">2px solid #dc143c</string>
     <string name="component_radio_focus_outline_offset">2px</string>
-    <color name="component_radio_hover_border_color">#53db14</color>
+    <color name="component_radio_hover_border_color">#dc143c</color>
     <dimen name="component_radio_hover_box_shadow_blur">4dp</dimen>
     <string name="component_radio_hover_box_shadow_color">rgba(0, 0, 0, 0.1)</string>
     <dimen name="component_radio_hover_box_shadow_spread">0dp</dimen>
@@ -339,12 +339,12 @@
     <string name="component_radio_label_font_weight">500</string>
     <dimen name="component_radio_label_margin_left">8dp</dimen>
     <color name="component_radio_label_text_color">#1A1A1A</color>
-    <color name="component_radio_selected_border_color">#53db14</color>
+    <color name="component_radio_selected_border_color">#dc143c</color>
     <color name="component_radio_selected_fill">#ffffff</color>
     <string name="component_radio_selected_indicator_border_radius">50%</string>
-    <color name="component_radio_selected_indicator_fill">#53db14</color>
+    <color name="component_radio_selected_indicator_fill">#dc143c</color>
     <dimen name="component_radio_selected_indicator_size">10dp</dimen>
-    <color name="component_radio_selected_hover_border_color">#53db14</color>
+    <color name="component_radio_selected_hover_border_color">#dc143c</color>
     <string name="component_radio_selected_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
 
     <!-- Select Component -->
@@ -381,14 +381,14 @@
     <dimen name="component_select_error_box_shadow_y">2dp</dimen>
     <color name="component_select_error_fill">#7a271a</color>
     <color name="component_select_error_text_color">#1A1A1A</color>
-    <string name="component_select_focus_outline">2px solid #53db14</string>
+    <string name="component_select_focus_outline">2px solid #dc143c</string>
     <string name="component_select_focus_outline_offset">2px</string>
     <color name="component_select_hover_border_color">#4A4A4A</color>
     <color name="component_select_hover_fill">#F5F5F5</color>
     <string name="component_select_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <dimen name="component_select_open_border_bottom_left_radius">0dp</dimen>
     <dimen name="component_select_open_border_bottom_right_radius">0dp</dimen>
-    <color name="component_select_open_border_color">#53db14</color>
+    <color name="component_select_open_border_color">#dc143c</color>
     <dimen name="component_select_open_box_shadow_blur">4dp</dimen>
     <string name="component_select_open_box_shadow_color">rgba(0, 0, 0, 0.1)</string>
     <dimen name="component_select_open_box_shadow_spread">0dp</dimen>
@@ -400,17 +400,17 @@
     <string name="component_select_option_padding">12 16</string>
     <color name="component_select_option_text_color">#1A1A1A</color>
     <color name="component_select_option_hover_fill">#F5F5F5</color>
-    <color name="component_select_option_hover_text_color">#53db14</color>
+    <color name="component_select_option_hover_text_color">#dc143c</color>
     <string name="component_select_option_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
-    <color name="component_select_option_selected_checkmark">#53db14</color>
+    <color name="component_select_option_selected_checkmark">#dc143c</color>
     <color name="component_select_option_selected_fill">#ff6b6b</color>
-    <color name="component_select_option_selected_text_color">#53db14</color>
+    <color name="component_select_option_selected_text_color">#dc143c</color>
 
     <!-- Toggle Component -->
     <string name="component_toggle_disabled_cursor">not-allowed</string>
     <color name="component_toggle_disabled_fill">#F5F5F5</color>
     <string name="component_toggle_disabled_opacity">0.5</string>
-    <string name="component_toggle_focus_outline">2px solid #53db14</string>
+    <string name="component_toggle_focus_outline">2px solid #dc143c</string>
     <string name="component_toggle_focus_outline_offset">2px</string>
     <string name="component_toggle_loading_cursor">wait</string>
     <color name="component_toggle_loading_fill">#F5F5F5</color>
@@ -426,12 +426,12 @@
     <string name="component_toggle_off_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <dimen name="component_toggle_on_border_radius">12dp</dimen>
     <string name="component_toggle_on_cursor">pointer</string>
-    <color name="component_toggle_on_fill">#53db14</color>
+    <color name="component_toggle_on_fill">#dc143c</color>
     <dimen name="component_toggle_on_height">24dp</dimen>
     <dimen name="component_toggle_on_padding">2dp</dimen>
     <string name="component_toggle_on_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <dimen name="component_toggle_on_width">44dp</dimen>
-    <color name="component_toggle_on_hover_fill">#53db14</color>
+    <color name="component_toggle_on_hover_fill">#dc143c</color>
     <string name="component_toggle_on_hover_transition">150 cubic-bezier(0.4, 0, 0.2, 1)</string>
     <dimen name="component_toggle_thumb_border_radius">50dp</dimen>
     <dimen name="component_toggle_thumb_box_shadow_blur">4dp</dimen>

@@ -610,5 +610,17 @@
       },
       "type": "typography"
     }
+  },
+  "asset": {
+    "brandLogo": {
+      "value": "https://seeklogo.com/free-vector-logos/ford",
+      "type": "asset",
+      "description": "Default brand logo asset - Ford"
+    },
+    "productImage": {
+      "value": "https://purepng.com/photo/17038/ford",
+      "type": "asset",
+      "description": "Default brand product image - Ford"
+    }
   }
 }

@@ -18,7 +18,7 @@
     <color name="color_blacks_black_80">#000000cc</color>
     <color name="color_blacks_black_90_default">#000000e6</color>
     <color name="color_brand_primary_accent">#ff1744</color>
-    <color name="color_brand_primary_primary">#53db14</color>
+    <color name="color_brand_primary_primary">#dc143c</color>
     <color name="color_brand_primary_secondary">#ff6b6b</color>
     <color name="color_brand_primary_tertiary">#ffa5a5</color>
     <color name="color_functional_caution">#fedf89</color>

@@ -15,10 +15,10 @@
     <dimen name="interaction_dragging_opacity">0.75dp</dimen>
 
     <!-- Error State -->
-    <color name="interaction_error_background_color">#7a271a</color>
-    <color name="interaction_error_border_color">#fee4e2</color>
-    <color name="interaction_error_color">#fda29b</color>
-    <color name="interaction_error_text_color">#fee4e2</color>
+    <color name="interaction_error_background_color">#fee4e2</color>
+    <color name="interaction_error_border_color">#912018</color>
+    <color name="interaction_error_color">#f04438</color>
+    <color name="interaction_error_text_color">#912018</color>
 
     <!-- Focus State -->
     <!-- Note: Outline uses CSS-like syntax, may need manual conversion -->
@@ -39,20 +39,20 @@
     <color name="interaction_readonly_text_color">#00000099</color>
 
     <!-- Selected State -->
-    <color name="interaction_selected_background_color">#2e90fa</color>
-    <color name="interaction_selected_border_color">#1570ef</color>
-    <color name="interaction_selected_text_color">#84caff</color>
+    <color name="interaction_selected_background_color">#f39c12</color>
+    <color name="interaction_selected_border_color">#b573d1</color>
+    <color name="interaction_selected_text_color">#b573d1</color>
 
     <!-- Success State -->
-    <color name="interaction_success_background_color">#054f31</color>
-    <color name="interaction_success_border_color">#a6f4c5</color>
-    <color name="interaction_success_color">#a6f4c5</color>
-    <color name="interaction_success_text_color">#a6f4c5</color>
+    <color name="interaction_success_background_color">#d1fadf</color>
+    <color name="interaction_success_border_color">#05603a</color>
+    <color name="interaction_success_color">#12b76a</color>
+    <color name="interaction_success_text_color">#05603a</color>
 
     <!-- Warning State -->
-    <color name="interaction_warning_background_color">#7a2e0e</color>
-    <color name="interaction_warning_border_color">#fedf89</color>
-    <color name="interaction_warning_color">#fedf89</color>
-    <color name="interaction_warning_text_color">#fedf89</color>
+    <color name="interaction_warning_background_color">#fef0c7</color>
+    <color name="interaction_warning_border_color">#93370d</color>
+    <color name="interaction_warning_color">#f79009</color>
+    <color name="interaction_warning_text_color">#93370d</color>
 
 </resources>

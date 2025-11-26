@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ASSET TOKENS - URLs to brand assets (logos, images, icons) -->
+
+    <string name="asset_brand_logo">https://pngimg.com/image/1640</string>
+    <string name="asset_product_image">https://pngimg.com/image/99491</string>
+</resources>

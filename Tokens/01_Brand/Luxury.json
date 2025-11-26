@@ -423,6 +423,18 @@
       "description": "Extra extra large spacing - spacious scale (2x base)"
     }
   },
+  "asset": {
+    "brandLogo": {
+      "value": "https://pngimg.com/image/1640",
+      "type": "asset",
+      "description": "Luxury brand logo asset - Audi"
+    },
+    "productImage": {
+      "value": "https://pngimg.com/image/99491",
+      "type": "asset",
+      "description": "Luxury brand product image - Audi"
+    }
+  },
   "borderRadius": {
     "xs": {
       "value": 8,

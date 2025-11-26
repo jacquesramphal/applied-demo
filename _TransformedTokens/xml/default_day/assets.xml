@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ASSET TOKENS - URLs to brand assets (logos, images, icons) -->
+
+    <string name="asset_brand_logo">https://seeklogo.com/free-vector-logos/ford</string>
+    <string name="asset_product_image">https://purepng.com/photo/17038/ford</string>
+</resources>

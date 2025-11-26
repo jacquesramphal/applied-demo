@@ -324,5 +324,17 @@
       "type": "borderRadius",
       "description": "Medium border radius - compact scale (0.5x base)"
     }
+  },
+  "asset": {
+    "brandLogo": {
+      "value": "https://1000logos.net/nissan-logo/",
+      "type": "asset",
+      "description": "Performance brand logo asset - Nissan"
+    },
+    "productImage": {
+      "value": "https://pngimg.com/image/34759",
+      "type": "asset",
+      "description": "Performance brand product image - Nissan GTR"
+    }
   }
 }

@@ -14,16 +14,16 @@
         android:orientation="vertical"
         android:padding="@dimen/component_card_default_padding">
 
-        <!-- Revert Icon -->
+        <!-- Product Image - Asset token URL loaded programmatically -->
         <ImageView
-            android:id="@+id/revertIcon"
-            android:layout_width="@dimen/icon_size_large"
-            android:layout_height="@dimen/icon_size_large"
-            android:src="@drawable/ic_revert"
-            android:contentDescription="Revert icon"
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:contentDescription="Product image"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/spacing_md"
-            android:tint="@color/color_text_primary" />
+            android:scaleType="centerCrop"
+            android:background="@color/color_surface_secondary" />
 
         <!-- Tires Heading - Typography heading-80: fontSize 36, lineHeight 48, fontFamily from brand -->
         <TextView

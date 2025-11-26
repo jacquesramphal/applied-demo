@@ -900,36 +900,6 @@
       "type": "letterSpacing"
     }
   },
-  "layout": {
-    "breakpoints": {
-      "compact": {
-        "value": 360,
-        "type": "dimension"
-      },
-      "medium": {
-        "value": 600,
-        "type": "dimension"
-      },
-      "expanded": {
-        "value": 840,
-        "type": "dimension"
-      }
-    },
-    "spacing": {
-      "dense": {
-        "value": 4,
-        "type": "dimension"
-      },
-      "base": {
-        "value": 8,
-        "type": "dimension"
-      },
-      "relaxed": {
-        "value": 16,
-        "type": "dimension"
-      }
-    }
-  },
   "motion": {
     "duration": {
       "short": {

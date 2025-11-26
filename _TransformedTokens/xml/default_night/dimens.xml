@@ -77,9 +77,18 @@
     <!-- 64 (variants: spacing, compact, spacious) -->
     <dimen name="spacing_64">64dp</dimen>
 
+    <!-- lg (variants: spacing, compact, spacious) -->
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="spacing_xxs">2dp</dimen>
+
     <!-- BORDER WIDTH TOKENS -->
 
-    <dimen name="border_spacing_0">0</dimen>
-    <dimen name="border_spacing_1">1px</dimen>
-    <dimen name="border_spacing_2">2px</dimen>
+    <dimen name="border_spacing_0">0dp</dimen>
+    <dimen name="border_spacing_1">1dp</dimen>
+    <dimen name="border_spacing_2">2dp</dimen>
 </resources>

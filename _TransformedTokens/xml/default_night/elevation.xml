@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ELEVATION TOKENS - Material Design elevation levels (y offset from boxShadow) -->
+
+    <dimen name="elevation_0">0dp</dimen>
+    <dimen name="elevation_1">2dp</dimen>
+    <dimen name="elevation_2">4dp</dimen>
+    <dimen name="elevation_3">8dp</dimen>
+    <dimen name="elevation_4">16dp</dimen>
+</resources>

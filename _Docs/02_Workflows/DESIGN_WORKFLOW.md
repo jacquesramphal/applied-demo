@@ -105,11 +105,19 @@ All platforms (Android XML, Kotlin, CSS) update
 
 **Option A: From GitHub (Recommended for teams)**
 
-1. **In Token Studio plugin panel:**
+1. **Fork the repository:**
+   - Go to [https://github.com/jacquesramphal/applied-demo](https://github.com/jacquesramphal/applied-demo)
+   - Click "Fork" to create your own copy
+   - This gives you a complete token system to start with
+
+2. **In Token Studio plugin panel:**
    - Click Settings ⚙️
    - Choose **Sync** → **Add New** → **GitHub**
-   - Enter your GitHub personal access token and repo path (ask your dev team for this)
-   - Token Studio will sync with the shared token repository
+   - Enter your GitHub personal access token
+   - Enter your forked repo path: `your-username/applied-demo` (or your organization's fork)
+   - Set the branch (usually `main`)
+   - Set the token path: `Tokens/` (tokens are directly in the Tokens folder)
+   - Token Studio will sync with your forked repository
 
 2. **Expected token sets appear automatically:**
    - `_Base/Value` (primitives and base values)
@@ -253,7 +261,7 @@ When developers consume this component, they don't hardcode colors. They use tok
 
 👉 **[See the complete Figma MCP Workflow Guide →](FIGMA_MCP_WORKFLOW.md)**
 
-The **VehicleComponentsDemo** app was built using this workflow — see it as a real example of AI-assisted development with design tokens.
+The **VehicleOSDemo** app was built using this workflow — see it as a real example of AI-assisted development with design tokens.
 
 ---
 
@@ -305,7 +313,7 @@ Don't recreate all tokens. Only override what's different. Everything else inher
 - Push your changes to the token repository
 - Dev team runs: `python3 _Scripts/token_transformer_full_coverage.py . --modes`
 - This generates `brandname_day` and `brandname_night` outputs automatically
-- Devs can test with: `cd VehicleComponentsDemo && ./swap-tokens.sh brandname_day`
+- Devs can test with: `cd VehicleOSDemo && ./swap-tokens.sh brandname_day`
 - Client's branding is live across all platforms
 
 ---
@@ -485,7 +493,7 @@ Copy-paste this pattern for consistency.
    - Devs pull your changes
    - They run: `python3 _Scripts/token_transformer_full_coverage.py . --modes`
    - This generates all 6 brand/theme combinations automatically
-   - They can test with: `cd VehicleComponentsDemo && ./swap-tokens.sh luxury_day`
+   - They can test with: `cd VehicleOSDemo && ./swap-tokens.sh luxury_day`
    - All platforms (Android XML, Kotlin, CSS) update automatically
 
 ### No Manual Specs Needed
@@ -576,7 +584,7 @@ Devs don't need you to write color specs or send Figma file links. They consume 
 **Tuesday PM:** Dev reviews, merges PR, runs:
 ```bash
 python3 _Scripts/token_transformer_full_coverage.py . --modes
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh IPSY-Spring_day
 ```
 

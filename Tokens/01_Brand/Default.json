@@ -254,103 +254,43 @@
   "spacing": {
     "0": {
       "value": 0,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "No spacing - zero value"
     },
-    "1": {
-      "value": 1,
-      "type": "dimension"
-    },
-    "2": {
+    "xxs": {
       "value": 2,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Extra extra small spacing - base scale"
     },
-    "3": {
-      "value": 3,
-      "type": "dimension"
-    },
-    "4": {
+    "xs": {
       "value": 4,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Extra small spacing - base scale"
     },
-    "5": {
-      "value": 5,
-      "type": "dimension"
-    },
-    "6": {
-      "value": 6,
-      "type": "dimension"
-    },
-    "7": {
-      "value": 7,
-      "type": "dimension"
-    },
-    "8": {
+    "sm": {
       "value": 8,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Small spacing - base scale"
     },
-    "10": {
-      "value": 10,
-      "type": "dimension"
-    },
-    "12": {
-      "value": 12,
-      "type": "dimension"
-    },
-    "14": {
-      "value": 14,
-      "type": "dimension"
-    },
-    "16": {
+    "md": {
       "value": 16,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Medium spacing - base scale"
     },
-    "18": {
-      "value": 18,
-      "type": "dimension"
-    },
-    "20": {
-      "value": 20,
-      "type": "dimension"
-    },
-    "22": {
-      "value": 22,
-      "type": "dimension"
-    },
-    "24": {
+    "lg": {
       "value": 24,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Large spacing - base scale"
     },
-    "28": {
-      "value": 28,
-      "type": "dimension"
-    },
-    "32": {
+    "xl": {
       "value": 32,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Extra large spacing - base scale"
     },
-    "36": {
-      "value": 36,
-      "type": "dimension"
-    },
-    "40": {
-      "value": 40,
-      "type": "dimension"
-    },
-    "44": {
-      "value": 44,
-      "type": "dimension"
-    },
-    "48": {
+    "xxl": {
       "value": 48,
-      "type": "dimension"
-    },
-    "56": {
-      "value": 56,
-      "type": "dimension"
-    },
-    "64": {
-      "value": 64,
-      "type": "dimension"
+      "type": "dimension",
+      "description": "Extra extra large spacing - base scale"
     }
   }
 }

@@ -12,7 +12,6 @@
 
     <!-- Dragging State -->
     <string name="interaction_dragging_box_shadow">0 8px 16px rgba(0, 0, 0, 0.2)</string>
-    <string name="interaction_dragging_cursor">grabbing</string>
     <dimen name="interaction_dragging_opacity">0.75dp</dimen>
 
     <!-- Error State -->
@@ -22,8 +21,8 @@
     <color name="interaction_error_text_color">#912018</color>
 
     <!-- Focus State -->
+    <!-- Note: Outline uses CSS-like syntax, may need manual conversion -->
     <string name="interaction_focus_outline">2px solid {color.active-dark-primary}</string>
-    <string name="interaction_focus_ring_color">{color.active-dark-primary}</string>
     <dimen name="interaction_focus_ring_offset">2dp</dimen>
     <dimen name="interaction_focus_ring_width">2dp</dimen>
 
@@ -32,12 +31,10 @@
     <dimen name="interaction_hover_opacity">0.88dp</dimen>
 
     <!-- Loading State -->
-    <string name="interaction_loading_cursor">wait</string>
     <dimen name="interaction_loading_opacity">0.6dp</dimen>
 
     <!-- Readonly State -->
     <color name="interaction_readonly_background_color">#0000001a</color>
-    <string name="interaction_readonly_cursor">default</string>
     <dimen name="interaction_readonly_opacity">0.6dp</dimen>
     <color name="interaction_readonly_text_color">#00000099</color>
 

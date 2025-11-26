@@ -53,6 +53,10 @@ Quick reference for design tokens, tools, and related resources.
 
 ## 📚 Related Documentation
 
+### Repository & Source
+- **[GitHub Repository](https://github.com/jacquesramphal/applied-demo)**  
+  Source repository containing all tokens, scripts, documentation, and the demo app. Fork this to get started with Token Studio.
+
 ### Internal Docs
 - **[Design Workflow Guide](../02_Workflows/DESIGN_WORKFLOW.md)** — Step-by-step Figma setup
 - **[Developer Workflow Guide](../02_Workflows/DEV_WORKFLOW.md)** — Build process and integration

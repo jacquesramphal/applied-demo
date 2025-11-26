@@ -385,127 +385,42 @@
     "0": {
       "value": 0,
       "type": "dimension",
-      "description": "Luxury: 0px × 2 = 0px (spacious)"
+      "description": "No spacing - zero value"
     },
-    "1": {
-      "value": 2,
-      "type": "dimension",
-      "description": "Luxury: 1px × 2 = 2px (spacious)"
-    },
-    "2": {
+    "xxs": {
       "value": 4,
       "type": "dimension",
-      "description": "Luxury: 2px × 2 = 4px (spacious)"
+      "description": "Extra extra small spacing - spacious scale (2x base)"
     },
-    "3": {
-      "value": 6,
-      "type": "dimension",
-      "description": "Luxury: 3px × 2 = 6px (spacious)"
-    },
-    "4": {
+    "xs": {
       "value": 8,
       "type": "dimension",
-      "description": "Luxury: 4px × 2 = 8px (spacious)"
+      "description": "Extra small spacing - spacious scale (2x base)"
     },
-    "5": {
-      "value": 10,
-      "type": "dimension",
-      "description": "Luxury: 5px × 2 = 10px (spacious)"
-    },
-    "6": {
-      "value": 12,
-      "type": "dimension",
-      "description": "Luxury: 6px × 2 = 12px (spacious)"
-    },
-    "7": {
-      "value": 14,
-      "type": "dimension",
-      "description": "Luxury: 7px × 2 = 14px (spacious)"
-    },
-    "8": {
+    "sm": {
       "value": 16,
       "type": "dimension",
-      "description": "Luxury: 8px × 2 = 16px (spacious)"
+      "description": "Small spacing - spacious scale (2x base)"
     },
-    "10": {
-      "value": 20,
-      "type": "dimension",
-      "description": "Luxury: 10px × 2 = 20px (spacious)"
-    },
-    "12": {
-      "value": 24,
-      "type": "dimension",
-      "description": "Luxury: 12px × 2 = 24px (spacious)"
-    },
-    "14": {
-      "value": 28,
-      "type": "dimension",
-      "description": "Luxury: 14px × 2 = 28px (spacious)"
-    },
-    "16": {
+    "md": {
       "value": 32,
       "type": "dimension",
-      "description": "Luxury: 16px × 2 = 32px (spacious)"
+      "description": "Medium spacing - spacious scale (2x base)"
     },
-    "18": {
-      "value": 36,
-      "type": "dimension",
-      "description": "Luxury: 18px × 2 = 36px (spacious)"
-    },
-    "20": {
-      "value": 40,
-      "type": "dimension",
-      "description": "Luxury: 20px × 2 = 40px (spacious)"
-    },
-    "22": {
-      "value": 44,
-      "type": "dimension",
-      "description": "Luxury: 22px × 2 = 44px (spacious)"
-    },
-    "24": {
+    "lg": {
       "value": 48,
       "type": "dimension",
-      "description": "Luxury: 24px × 2 = 48px (spacious)"
+      "description": "Large spacing - spacious scale (2x base)"
     },
-    "28": {
-      "value": 56,
-      "type": "dimension",
-      "description": "Luxury: 28px × 2 = 56px (spacious)"
-    },
-    "32": {
+    "xl": {
       "value": 64,
       "type": "dimension",
-      "description": "Luxury: 32px × 2 = 64px (spacious)"
+      "description": "Extra large spacing - spacious scale (2x base)"
     },
-    "36": {
-      "value": 72,
-      "type": "dimension",
-      "description": "Luxury: 36px × 2 = 72px (spacious)"
-    },
-    "40": {
-      "value": 80,
-      "type": "dimension",
-      "description": "Luxury: 40px × 2 = 80px (spacious)"
-    },
-    "44": {
-      "value": 88,
-      "type": "dimension",
-      "description": "Luxury: 44px × 2 = 88px (spacious)"
-    },
-    "48": {
+    "xxl": {
       "value": 96,
       "type": "dimension",
-      "description": "Luxury: 48px × 2 = 96px (spacious)"
-    },
-    "56": {
-      "value": 112,
-      "type": "dimension",
-      "description": "Luxury: 56px × 2 = 112px (spacious)"
-    },
-    "64": {
-      "value": 128,
-      "type": "dimension",
-      "description": "Luxury: 64px × 2 = 128px (spacious)"
+      "description": "Extra extra large spacing - spacious scale (2x base)"
     }
   }
 }

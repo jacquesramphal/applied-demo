@@ -47,9 +47,9 @@ Cursor response generates Android XML/Kotlin code that:
 
 ---
 
-## Real Example: VehicleComponentsDemo App
+## Real Example: VehicleOSDemo App
 
-The **VehicleComponentsDemo** Android app (`VehicleComponentsDemo/`) was built using this workflow:
+The **VehicleOSDemo** Android app (`VehicleOSDemo/`) was built using this workflow:
 
 1. **Design created in Figma** with design tokens applied
 2. **Figma MCP used in Cursor** to extract design specifications
@@ -62,14 +62,14 @@ The **VehicleComponentsDemo** Android app (`VehicleComponentsDemo/`) was built u
 
 **See it in action:**
 ```bash
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh luxury_night
 # App now uses Luxury brand + Night theme tokens
 ```
 
 **Key files:**
-- `VehicleComponentsDemo/app/src/main/res/layout/activity_main.xml` — Layout built from Figma design
-- `VehicleComponentsDemo/app/src/main/res/values/` — Token files synced from `_TransformedTokens/xml/`
+- `VehicleOSDemo/app/src/main/res/layout/activity_main.xml` — Layout built from Figma design
+- `VehicleOSDemo/app/src/main/res/values/` — Token files synced from `_TransformedTokens/xml/`
 
 ---
 
@@ -166,6 +166,6 @@ A: Check `_TransformedTokens/xml/{brand}_{theme}/` for available token names. Or
 ---
 
 **Status:** ✅ Production-proven workflow  
-**Example:** VehicleComponentsDemo app  
+**Example:** VehicleOSDemo app  
 **Last Updated:** November 2025
 

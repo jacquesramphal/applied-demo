@@ -3,115 +3,21 @@
     <!-- COMPONENT TOKENS - Buttons, Cards, Notifications, Forms -->
 
     <!-- Button Component -->
-    <string name="component_button_danger_active">button_danger_active</string>
-    <string name="component_button_danger_default">button_danger_default</string>
-    <string name="component_button_danger_hover">button_danger_hover</string>
-    <string name="component_button_loading_type">composition</string>
-    <string name="component_button_primary_active">button_primary_active</string>
-    <string name="component_button_primary_default">button_primary_default</string>
-    <string name="component_button_primary_disabled">button_primary_disabled</string>
-    <string name="component_button_primary_hover">button_primary_hover</string>
-    <string name="component_button_secondary_active">button_secondary_active</string>
-    <string name="component_button_secondary_default">button_secondary_default</string>
-    <string name="component_button_secondary_disabled">button_secondary_disabled</string>
-    <string name="component_button_secondary_hover">button_secondary_hover</string>
-    <string name="component_button_size_large">button_size_large</string>
-    <string name="component_button_size_medium">button_size_medium</string>
-    <string name="component_button_size_small">button_size_small</string>
-    <string name="component_button_tertiary_active">button_tertiary_active</string>
-    <string name="component_button_tertiary_default">button_tertiary_default</string>
-    <string name="component_button_tertiary_hover">button_tertiary_hover</string>
 
     <!-- Card Component -->
-    <string name="component_card_body_type">composition</string>
-    <string name="component_card_compact_type">composition</string>
-    <string name="component_card_default_type">composition</string>
-    <string name="component_card_divider_type">composition</string>
-    <string name="component_card_elevated_type">composition</string>
-    <string name="component_card_footer_type">composition</string>
-    <string name="component_card_header_type">composition</string>
-    <string name="component_card_interactive_type">composition</string>
-    <string name="component_card_interactive_hover_type">composition</string>
-    <string name="component_card_large_type">composition</string>
 
     <!-- Checkbox Component -->
-    <string name="component_checkbox_checked_type">composition</string>
-    <string name="component_checkbox_checked_hover_type">composition</string>
-    <string name="component_checkbox_default_type">composition</string>
-    <string name="component_checkbox_disabled_type">composition</string>
-    <string name="component_checkbox_error_type">composition</string>
-    <string name="component_checkbox_focus_type">composition</string>
-    <string name="component_checkbox_hover_type">composition</string>
-    <string name="component_checkbox_indeterminate_type">composition</string>
-    <string name="component_checkbox_label_type">composition</string>
 
     <!-- Input Component -->
-    <string name="component_input_default_type">composition</string>
-    <string name="component_input_disabled_type">composition</string>
-    <string name="component_input_error_type">composition</string>
-    <string name="component_input_error_text_type">composition</string>
-    <string name="component_input_focus_type">composition</string>
-    <string name="component_input_helper_text_type">composition</string>
-    <string name="component_input_hover_type">composition</string>
-    <string name="component_input_label_type">composition</string>
-    <string name="component_input_placeholder_type">composition</string>
-    <string name="component_input_readonly_type">composition</string>
-    <string name="component_input_success_type">composition</string>
 
     <!-- Modal Component -->
-    <string name="component_modal_backdrop_type">composition</string>
-    <string name="component_modal_body_type">composition</string>
-    <string name="component_modal_close_button_type">composition</string>
-    <string name="component_modal_container_type">composition</string>
-    <string name="component_modal_focus_type">composition</string>
-    <string name="component_modal_footer_type">composition</string>
-    <string name="component_modal_fullscreen_type">composition</string>
-    <string name="component_modal_header_type">composition</string>
-    <string name="component_modal_large_type">composition</string>
-    <string name="component_modal_medium_type">composition</string>
-    <string name="component_modal_small_type">composition</string>
 
     <!-- Notification Component -->
-    <string name="component_notification_badge_type">composition</string>
-    <string name="component_notification_badge_error_type">composition</string>
-    <string name="component_notification_badge_success_type">composition</string>
-    <string name="component_notification_badge_warning_type">composition</string>
-    <string name="component_notification_error_type">composition</string>
-    <string name="component_notification_info_type">composition</string>
-    <string name="component_notification_success_type">composition</string>
-    <string name="component_notification_toast_type">composition</string>
-    <string name="component_notification_warning_type">composition</string>
 
     <!-- Radio Component -->
-    <string name="component_radio_default_type">composition</string>
-    <string name="component_radio_disabled_type">composition</string>
-    <string name="component_radio_error_type">composition</string>
-    <string name="component_radio_focus_type">composition</string>
-    <string name="component_radio_hover_type">composition</string>
-    <string name="component_radio_label_type">composition</string>
-    <string name="component_radio_selected_type">composition</string>
-    <string name="component_radio_selected_hover_type">composition</string>
 
     <!-- Select Component -->
-    <string name="component_select_closed_type">composition</string>
-    <string name="component_select_disabled_type">composition</string>
-    <string name="component_select_dropdown_type">composition</string>
-    <string name="component_select_error_type">composition</string>
-    <string name="component_select_focus_type">composition</string>
-    <string name="component_select_hover_type">composition</string>
-    <string name="component_select_open_type">composition</string>
-    <string name="component_select_option_type">composition</string>
-    <string name="component_select_option_hover_type">composition</string>
-    <string name="component_select_option_selected_type">composition</string>
 
     <!-- Toggle Component -->
-    <string name="component_toggle_disabled_type">composition</string>
-    <string name="component_toggle_focus_type">composition</string>
-    <string name="component_toggle_loading_type">composition</string>
-    <string name="component_toggle_off_type">composition</string>
-    <string name="component_toggle_off_hover_type">composition</string>
-    <string name="component_toggle_on_type">composition</string>
-    <string name="component_toggle_on_hover_type">composition</string>
-    <string name="component_toggle_thumb_type">composition</string>
 
 </resources>

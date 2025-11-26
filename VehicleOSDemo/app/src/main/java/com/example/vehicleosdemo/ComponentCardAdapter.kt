@@ -1,0 +1,66 @@
+package com.example.vehicleosdemo
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+
+data class ComponentData(
+    val title: String,
+    val label: String,
+    val value: String,
+    val progress: Float,
+    val replacementText: String
+)
+
+class ComponentCardAdapter(
+    private val components: List<ComponentData>
+) : RecyclerView.Adapter<ComponentCardAdapter.ComponentViewHolder>() {
+
+    class ComponentViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val titleText = itemView.findViewById<TextView>(R.id.tiresHeading)
+        private val labelText = itemView.findViewById<TextView>(R.id.labelText)
+        private val valueText = itemView.findViewById<TextView>(R.id.valueText)
+        private val replacementText = itemView.findViewById<TextView>(R.id.replacementText)
+        private val progressBarFill = itemView.findViewById<View>(R.id.progressBarFill)
+        private val progressBarContainer = itemView.findViewById<FrameLayout>(R.id.progressBarContainer)
+        
+        fun bind(component: ComponentData) {
+            // Set text values
+            titleText.text = component.title
+            labelText.text = component.label
+            valueText.text = component.value
+            replacementText.text = component.replacementText
+            
+            // Set progress bar
+            val progress = component.progress
+            
+            // Use post to get width after layout is complete
+            progressBarContainer.post {
+                val containerWidth = progressBarContainer.width
+                val padding = itemView.resources.getDimensionPixelSize(R.dimen.spacing_xs) * 2 // left + right padding
+                val availableWidth = containerWidth - padding
+                val fillWidth = (availableWidth * progress).toInt()
+                
+                val layoutParams = progressBarFill.layoutParams
+                layoutParams.width = fillWidth
+                progressBarFill.layoutParams = layoutParams
+            }
+        }
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ComponentViewHolder {
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.item_component_card, parent, false)
+        return ComponentViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: ComponentViewHolder, position: Int) {
+        holder.bind(components[position])
+    }
+
+    override fun getItemCount(): Int = components.size
+}
+

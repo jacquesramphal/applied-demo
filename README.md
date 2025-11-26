@@ -2,6 +2,10 @@
 
 A comprehensive design token system with **403+ tokens** organized in a **6-layer architecture**, designed for enterprise-grade applications with Material Design 3 and WCAG 2.1 AA compliance.
 
+**🔗 Repository:** [https://github.com/jacquesramphal/applied-demo](https://github.com/jacquesramphal/applied-demo)
+
+> **For Token Studio Setup:** Fork this repository and use the GitHub sync feature in Token Studio to connect to your forked repo. See [DESIGN_WORKFLOW.md](_Docs/02_Workflows/DESIGN_WORKFLOW.md) for detailed setup instructions.
+
 ---
 
 ## 📦 What's Inside
@@ -10,7 +14,7 @@ This repository contains everything you need for a production-ready design token
 
 1. **📚 Complete Documentation** — Step-by-step guides for designers, developers, and tech leads
 2. **🎨 Design Tokens** — 403+ tokens organized in a 6-layer architecture with 3 brands × 2 themes
-3. **🚗 Sample App** — Working Android demo app (`VehicleComponentsDemo`) for testing and reference
+3. **🚗 Sample App** — Working Android demo app (`VehicleOSDemo`) for testing and reference
 4. **🔧 Transformation Scripts** — Automated token generation for Android XML, Kotlin, and CSS
 5. **🤖 AI Integration** — Cursor rules and Figma MCP workflow for AI-assisted development
 
@@ -157,9 +161,9 @@ This generates all 6 brand/theme combinations automatically in:
 
 ---
 
-## 🚗 Sample App: VehicleComponentsDemo
+## 🚗 Sample App: VehicleOSDemo
 
-A **working Android demo app** built to test and demonstrate the design token system. Located in `VehicleComponentsDemo/`.
+A **working Android demo app** built to test and demonstrate the design token system. Located in `VehicleOSDemo/`.
 
 ### What It Demonstrates
 
@@ -174,7 +178,7 @@ A **working Android demo app** built to test and demonstrate the design token sy
 
 **Swap brand/theme (one command):**
 ```bash
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh <brand_theme>
 ```
 
@@ -197,7 +201,7 @@ This single command:
 ### App Structure
 
 ```
-VehicleComponentsDemo/
+VehicleOSDemo/
 ├── app/
 │   ├── src/main/
 │   │   ├── res/
@@ -227,8 +231,8 @@ VehicleComponentsDemo/
 
 ### Documentation
 
-- **[VehicleComponentsDemo/README.md](VehicleComponentsDemo/README.md)** — Demo app overview and setup
-- **[VehicleComponentsDemo/BRAND_THEME_SWAP.md](VehicleComponentsDemo/BRAND_THEME_SWAP.md)** — How to swap brands and themes
+- **[VehicleOSDemo/README.md](VehicleOSDemo/README.md)** — Demo app overview and setup
+- **[VehicleOSDemo/BRAND_THEME_SWAP.md](VehicleOSDemo/BRAND_THEME_SWAP.md)** — How to swap brands and themes
 
 ---
 
@@ -248,9 +252,9 @@ python3 _Scripts/token_transformer_full_coverage.py .
 
 ### Brand/Theme Swapping
 
-**In VehicleComponentsDemo:**
+**In VehicleOSDemo:**
 ```bash
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh <brand_theme>
 ```
 
@@ -301,13 +305,13 @@ The token system is organized in 6 layers for scalability and maintainability:
 ## ❓ Quick FAQ
 
 **Q: How do I swap brands and themes?**  
-A: Use the one-command script: `cd VehicleComponentsDemo && ./swap-tokens.sh <brand_theme>`
+A: Use the one-command script: `cd VehicleOSDemo && ./swap-tokens.sh <brand_theme>`
 
 **Q: How long does it take to add a new brand?**  
 A: With this system: ~1 day. Without tokens: 2-3 weeks per brand.
 
 **Q: How do I implement this in my project?**  
-A: Follow the workflow guides in `_Docs/02_Workflows/`. See `VehicleComponentsDemo/` for a working example.
+A: Follow the workflow guides in `_Docs/02_Workflows/`. See `VehicleOSDemo/` for a working example.
 
 **Q: What changed from the previous version?**  
 A: One breaking change: `AppliedBlue` → `BrandPrimary`. See [MIGRATION_GUIDE.md](_Docs/01_Guides/MIGRATION_GUIDE.md).
@@ -323,4 +327,4 @@ This design token system is part of the VehicleOS design framework.
 
 ---
 
-**Ready to get started?** Choose your role and follow the reading paths above, or explore the [sample app](VehicleComponentsDemo/) to see tokens in action!
+**Ready to get started?** Choose your role and follow the reading paths above, or explore the [sample app](VehicleOSDemo/) to see tokens in action!

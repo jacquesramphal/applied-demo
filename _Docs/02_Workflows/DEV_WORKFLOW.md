@@ -46,7 +46,7 @@ App UI (automatically in sync)
 
 👉 **[See the complete Figma MCP Workflow Guide →](FIGMA_MCP_WORKFLOW.md)**
 
-The **VehicleComponentsDemo** app was built using this workflow — see it as a real example of AI-assisted development with design tokens.
+The **VehicleOSDemo** app was built using this workflow — see it as a real example of AI-assisted development with design tokens.
 
 ---
 
@@ -191,9 +191,9 @@ python3 _Scripts/token_transformer_full_coverage.py . --modes
 
 ### Step 3: Swap Tokens in Demo App (or Integrate into Your App)
 
-**For the VehicleComponentsDemo app:**
+**For the VehicleOSDemo app:**
 ```bash
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh luxury_night
 ```
 
@@ -264,7 +264,7 @@ This is where tokens save time:
 3. Designer pushes to GitHub
 4. Dev runs: `python3 _Scripts/token_transformer_full_coverage.py . --modes` (30 sec)
 5. This automatically generates `{clientname}_day` and `{clientname}_night` outputs
-6. Dev tests with: `cd VehicleComponentsDemo && ./swap-tokens.sh {clientname}_day`
+6. Dev tests with: `cd VehicleOSDemo && ./swap-tokens.sh {clientname}_day`
 7. Deploy new assets
 8. QA tests
 
@@ -456,7 +456,7 @@ A: Same token names, different values. `03_Themes/Day.json` and `Night.json` pro
 A: Not recommended. Defeats the purpose. If you need local overrides, talk to designers about adding a new token instead. The system is designed so brand files only override what's different.
 
 **Q: How do I test different brand/theme combinations?**  
-A: Use `./swap-tokens.sh {brand}_{theme}` in the VehicleComponentsDemo app. Available combinations: `default_day`, `default_night`, `performance_day`, `performance_night`, `luxury_day`, `luxury_night`.
+A: Use `./swap-tokens.sh {brand}_{theme}` in the VehicleOSDemo app. Available combinations: `default_day`, `default_night`, `performance_day`, `performance_night`, `luxury_day`, `luxury_night`.
 
 **Q: What's the difference between the token files and the generated outputs?**  
 A: Token files (in `Tokens/`) are the source of truth. Generated outputs (in `_TransformedTokens/`) are platform-specific files (XML, Kotlin, CSS) that your code consumes. Always regenerate after token changes.
@@ -474,7 +474,7 @@ A: Token files (in `Tokens/`) are the source of truth. Generated outputs (in `_T
 3. **Review** the generated outputs in `_TransformedTokens/xml/`, `_TransformedTokens/kotlin/`, `_TransformedTokens/css/`
 4. **Test token swapping** in the demo app:
    ```bash
-   cd VehicleComponentsDemo
+   cd VehicleOSDemo
    ./swap-tokens.sh luxury_night
    ```
 5. **Audit** your codebase: where are hardcoded values? Replace with token references.

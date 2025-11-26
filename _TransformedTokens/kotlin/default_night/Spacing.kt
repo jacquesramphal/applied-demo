@@ -77,4 +77,13 @@ object SpacingTokens {
 
     // 64 (variants: spacing, compact, spacious)
     val _64 = 64.dp
+
+    // lg (variants: spacing, compact, spacious)
+    val lg = 24.dp
+    val md = 16.dp
+    val sm = 8.dp
+    val xl = 32.dp
+    val xs = 4.dp
+    val xxl = 48.dp
+    val xxs = 2.dp
 }

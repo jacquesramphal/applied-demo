@@ -941,6 +941,45 @@ object TokenProvider {
         xml += '</resources>\n'
         return xml
 
+    def generate_xml_elevation(self, elevation: Dict[str, Any]) -> str:
+        """Generate elevation.xml for elevation/shadow tokens - uses y (vertical offset) for Android elevation."""
+        xml = '<?xml version="1.0" encoding="utf-8"?>\n'
+        xml += '<resources>\n'
+        xml += '    <!-- ELEVATION TOKENS - Material Design elevation levels (y offset from boxShadow) -->\n\n'
+        
+        if elevation:
+            for name in sorted(elevation.keys(), key=lambda x: int(x) if x.isdigit() else 999):
+                value = elevation[name]
+                resource_name = name if name.isdigit() else self._to_snake_case(name)
+                
+                # The value is the shadow dict (extracted by extract_elevation)
+                if isinstance(value, dict):
+                    # Extract y (vertical offset) for Android elevation
+                    # Android elevation represents the shadow's vertical offset
+                    y_offset = value.get("y", 0)
+                    # Extract numeric value if it's a string like "2px" or number
+                    if isinstance(y_offset, str):
+                        y_offset = int(y_offset.replace('px', '').strip()) if y_offset.replace('px', '').strip().isdigit() else 0
+                    elif isinstance(y_offset, (int, float)):
+                        y_offset = int(y_offset)
+                    else:
+                        y_offset = 0
+                    xml += f'    <dimen name="elevation_{resource_name}">{y_offset}dp</dimen>\n'
+                elif isinstance(value, (int, float)):
+                    xml += f'    <dimen name="elevation_{resource_name}">{int(value)}dp</dimen>\n'
+                else:
+                    xml += f'    <dimen name="elevation_{resource_name}">0dp</dimen>\n'
+        else:
+            # Fallback elevation values
+            xml += '    <dimen name="elevation_0">0dp</dimen>      <!-- Flat -->\n'
+            xml += '    <dimen name="elevation_1">2dp</dimen>      <!-- Subtle elevation -->\n'
+            xml += '    <dimen name="elevation_2">4dp</dimen>      <!-- Medium elevation -->\n'
+            xml += '    <dimen name="elevation_3">8dp</dimen>      <!-- High elevation -->\n'
+            xml += '    <dimen name="elevation_4">16dp</dimen>     <!-- Maximum elevation -->\n'
+        
+        xml += '</resources>\n'
+        return xml
+
     def generate_xml_dimens(self, spacing: Dict[str, int], border_width: Dict[str, str] = None) -> str:
         """Generate dimens.xml (Android convention for spacing and border widths)."""
         xml = '<?xml version="1.0" encoding="utf-8"?>\n'
@@ -972,13 +1011,33 @@ object TokenProvider {
                 xml += f'    <!-- {suffix} (variants: spacing, compact, spacious) -->\n'
                 last_suffix = suffix_num
             
-            xml += f'    <dimen name="{self._to_snake_case(name)}">{value}dp</dimen>\n'
+            # Always prefix spacing tokens with "spacing_" for consistency
+            token_name = self._to_snake_case(name)
+            if not token_name.startswith("spacing_"):
+                token_name = f"spacing_{token_name}"
+            xml += f'    <dimen name="{token_name}">{value}dp</dimen>\n'
         
         # Add border width tokens
         if border_width:
             xml += '\n    <!-- BORDER WIDTH TOKENS -->\n\n'
             for name, value in sorted(border_width.items()):
-                xml += f'    <dimen name="border_{self._to_snake_case(name)}">{value}</dimen>\n'
+                # Ensure all border width values have "dp" unit
+                # Convert "px" to "dp" and add "dp" if no unit present
+                if isinstance(value, str):
+                    if value.endswith("px"):
+                        # Convert px to dp (1px = 1dp for border widths in Android)
+                        value_dp = value.replace("px", "dp")
+                    elif value.endswith("dp"):
+                        value_dp = value
+                    elif value == "0" or value.isdigit():
+                        # Add "dp" unit if missing
+                        value_dp = f"{value}dp"
+                    else:
+                        value_dp = value
+                else:
+                    # Numeric value - add "dp" unit
+                    value_dp = f"{value}dp"
+                xml += f'    <dimen name="border_{self._to_snake_case(name)}">{value_dp}</dimen>\n'
         
         xml += '</resources>\n'
         return xml
@@ -1319,6 +1378,10 @@ object TokenProvider {
                         if isinstance(value, str):
                             value = self.resolve_reference(value)
                         
+                        # Skip cursor strings - not applicable to Android (CSS/web-specific)
+                        if property_name.lower().endswith("_cursor") or property_name.lower() == "cursor":
+                            continue
+                        
                         # Determine resource type
                         if isinstance(value, str) and value.startswith("#"):
                             xml += f'    <color name="{full_name}">{value}</color>\n'
@@ -1327,17 +1390,54 @@ object TokenProvider {
                             resolved_color = resolve_color_value(value)
                             if resolved_color and resolved_color.startswith("#"):
                                 xml += f'    <color name="{full_name}">{resolved_color}</color>\n'
-                            elif isinstance(value, str) and '{' in value:
-                                # Still has template syntax - try one more resolution pass
-                                final_value = self.resolve_reference(value)
-                                if final_value.startswith("#"):
-                                    xml += f'    <color name="{full_name}">{final_value}</color>\n'
+                        elif isinstance(value, str) and '{' in value:
+                            # Still has template syntax - try to resolve color references
+                            import re
+                            color_refs = re.findall(r'\{([^}]+)\}', value)
+                            resolved_value = value
+                            
+                            # Try to resolve each color reference
+                            for color_ref in color_refs:
+                                # Convert color path to resource name format
+                                color_key = color_ref.replace('.', '_').replace('-', '_')
+                                
+                                # Search for matching color in colors dict
+                                found_color = None
+                                for color_name, color_value in colors.items() if colors else {}:
+                                    # Match patterns like "color_active_active_dark_primary" or "color_active_dark_primary"
+                                    if (color_key.lower() in color_name.lower() or 
+                                        color_name.lower().endswith(color_key.lower()) or
+                                        f"color_{color_key}" in color_name.lower()):
+                                        found_color = color_value
+                                        break
+                                
+                                if found_color:
+                                    # Replace template syntax with resolved color
+                                    resolved_value = resolved_value.replace(f"{{{color_ref}}}", found_color)
                                 else:
-                                    # Fallback to string if can't resolve
-                                    xml += f'    <string name="{full_name}">{value}</string>\n'
+                                    # Try to resolve via token system
+                                    token_value = self._get_token_value(color_ref)
+                                    if token_value and isinstance(token_value, str) and token_value.startswith("#"):
+                                        resolved_value = resolved_value.replace(f"{{{color_ref}}}", token_value)
+                            
+                            # Check if we successfully resolved to a color
+                            if resolved_value.startswith("#"):
+                                xml += f'    <color name="{full_name}">{resolved_value}</color>\n'
+                            elif '{' not in resolved_value and ("color" in property_name.lower() or "ring" in property_name.lower()):
+                                # If it's a color property and we resolved it, output as color
+                                # Extract hex color from resolved string if it contains one
+                                hex_match = re.search(r'#([0-9A-Fa-f]{6,8})', resolved_value)
+                                if hex_match:
+                                    xml += f'    <color name="{full_name}">#{hex_match.group(1)}</color>\n'
+                                else:
+                                    # Output as string but try to use Android resource reference if possible
+                                    xml += f'    <string name="{full_name}">{resolved_value}</string>\n'
                             else:
-                                # Fallback to string if can't resolve
-                                xml += f'    <string name="{full_name}">{value}</string>\n'
+                                # Still has unresolved template syntax or not a color
+                                # For outline strings, output as-is (may contain CSS-like syntax)
+                                if "outline" in property_name.lower():
+                                    xml += f'    <!-- Note: Outline uses CSS-like syntax, may need manual conversion -->\n'
+                                xml += f'    <string name="{full_name}">{resolved_value}</string>\n'
                         elif isinstance(value, (int, float)):
                             # Use dimen for numeric values (opacity, delta, etc.)
                             xml += f'    <dimen name="{full_name}">{value}dp</dimen>\n'
@@ -1366,12 +1466,16 @@ object TokenProvider {
                             safe_variant_name = self._to_snake_case(variant_name)
                             safe_property_name = self._to_snake_case(property_name)
                             
-                            # Skip type properties (they're just metadata)
+                                # Skip type properties (they're just metadata, not needed in Android XML)
                             if property_name.endswith("_type") or property_name == "type":
-                                if isinstance(property_def, str):
-                                    full_name = f"component_{safe_component_name}_{safe_variant_name}_{safe_property_name}"
-                                    xml += f'    <string name="{full_name}">{property_def}</string>\n'
                                 continue
+                            
+                            # Skip component identifier strings (redundant - resource name already identifies it)
+                            # These are generated when JSON-like structures are converted to simple identifiers
+                            if isinstance(property_def, str) and not isinstance(property_def, dict):
+                                # Check if it's just a duplicate identifier (e.g., "button_primary_default")
+                                if property_def == f"{safe_component_name}_{safe_variant_name}" or property_def == f"{safe_component_name}_{safe_variant_name}_{safe_property_name}":
+                                    continue
                             
                             if isinstance(property_def, dict) and "value" in property_def:
                                 value = property_def["value"]
@@ -1405,8 +1509,8 @@ object TokenProvider {
                                     )
                                 
                                 if is_json_like:
-                                    # Convert to simple identifier string (skip JSON-like component definitions)
-                                    xml += f'    <string name="{full_name}">{safe_component_name}_{safe_variant_name}_{safe_property_name}</string>\n'
+                                    # Skip JSON-like component definitions - these are just identifiers, not needed in Android XML
+                                    # The resource name already identifies the component/variant
                                     continue
                                 
                                 # Resolve value if it's a string with references (only if not JSON-like)
@@ -1436,9 +1540,12 @@ object TokenProvider {
                                               ("':" in property_def and "'" in property_def) or
                                               ('{"' in property_def) or
                                               ("{'fill'" in property_def))
+                                # Skip JSON-like strings and redundant identifier strings
                                 if is_json_like:
-                                    xml += f'    <string name="{full_name}">{safe_component_name}_{safe_variant_name}_{safe_property_name}</string>\n'
-                                else:
+                                    continue
+                                # Only output if it's a meaningful string value (not just an identifier)
+                                # Skip if it's just repeating the component/variant name
+                                if property_def != f"{safe_component_name}_{safe_variant_name}" and property_def != f"{safe_component_name}_{safe_variant_name}_{safe_property_name}":
                                     xml += f'    <string name="{full_name}">{property_def}</string>\n'
             xml += '\n'
         
@@ -1720,6 +1827,7 @@ object TokenProvider {
             "animations.xml": self.generate_xml_animations(tokens["motion"]),
             "interactions.xml": self.generate_xml_interactions(tokens["interactions"], colors=tokens["colors"]),
             "components.xml": self.generate_xml_components(tokens["components"]),
+            "elevation.xml": self.generate_xml_elevation(tokens["elevation"]),
         }
         
         # Add optional token files if they have content

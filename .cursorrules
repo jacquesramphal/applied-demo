@@ -199,9 +199,9 @@ This generates all 6 brand/theme combinations in `_TransformedTokens/xml/`.
 
 ### Token Swapping (Demo App)
 
-For the VehicleComponentsDemo app:
+For the VehicleOSDemo app:
 ```bash
-cd VehicleComponentsDemo
+cd VehicleOSDemo
 ./swap-tokens.sh {brand}_{theme}
 ```
 
@@ -233,10 +233,10 @@ Before finalizing generated code, verify:
 
 ---
 
-## 🎨 Example: VehicleComponentsDemo
+## 🎨 Example: VehicleOSDemo
 
-The `VehicleComponentsDemo` app is a reference implementation:
-- Location: `VehicleComponentsDemo/app/src/main/res/layout/activity_main.xml`
+The `VehicleOSDemo` app is a reference implementation:
+- Location: `VehicleOSDemo/app/src/main/res/layout/activity_main.xml`
 - Uses tokens from `_TransformedTokens/xml/{brand}_{theme}/`
 - Supports all 6 brand/theme combinations
 - No hardcoded values
@@ -262,7 +262,7 @@ The `VehicleComponentsDemo` app is a reference implementation:
 3. **Map Figma values to token system** instead of using raw values
 4. **Verify token references exist** in `_TransformedTokens/xml/`
 5. **Test with multiple brand/theme combinations** when possible
-6. **Reference VehicleComponentsDemo** as an example
+6. **Reference VehicleOSDemo** as an example
 7. **Ask clarifying questions** if token mapping is unclear
 
 ---

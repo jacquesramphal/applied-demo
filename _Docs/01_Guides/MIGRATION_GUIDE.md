@@ -4,7 +4,7 @@
 **Version:** 1.0 — Production Ready  
 **Audience:** Design Systems Leads, Project Managers, Technical Teams  
 **Reading Time:** 20-30 minutes  
-**Status:** ✅ Updated to match current token structure  
+**Status:** ✅ Updated to match current token structure (16 top-level categories, 23 Typography compositions)  
 
 ---
 
@@ -71,7 +71,7 @@ Applied Intuition's VehicleOS design token system has been **completely restruct
 #### Updated
 ```json
 {
-  "colors": {
+  "color-primitives": {
     "White": { "White": "#ffffff", "opacity-90": "#ffffffe6" },
     "Black": { "Black": "#000000", "opacity-70": "#00000034" },
     "Neutral": { "10": "#...", "20": "#...", ... },
@@ -82,9 +82,24 @@ Applied Intuition's VehicleOS design token system has been **completely restruct
   "borderRadius": { "4": 4, "8": 8, "16": 16, "24": 24 },
   "elevation": { "0": {}, "1": { "offsetY": 2 }, ... },
   "fontSize": { "12": 12, "14": 14, ... },
-  "lineHeight": { "16": 16, "20": 20, ... }
+  "lineHeight": { "16": 16, "20": 20, ... },
+  "Typography": {
+    "display-80": { ... },
+    "heading-80": { ... },
+    "body-100": { ... }
+    // ... 20 more compositions
+  }
 }
 ```
+
+**Note:** The `_Base/Value.json` file now contains **16 top-level categories** including:
+- `color-primitives` (color scales)
+- `spacing` (spacing scale)
+- `fontSize`, `lineHeight`, `fontWeight` (typography scales)
+- `Typography` (23 typography compositions)
+- `borderRadius`, `borderWidth`, `elevation` (layout tokens)
+- `textDecoration`, `textCase`, `letterSpacing` (text styling)
+- `layout`, `motion`, `platforms`, `fontFamily` (system tokens)
 
 #### 🎯 Why?
 
@@ -194,7 +209,7 @@ Applied Intuition's VehicleOS design token system has been **completely restruct
 ```
 
 #### Updated
-Typography compositions are now defined in `_Base/Value.json` under the `Typography` key:
+Typography compositions are now defined in `_Base/Value.json` under the `Typography` key. The file includes **23 typography composition tokens** (e.g., `display-80`, `display-60`, `heading-80`, `body-100`, etc.):
 ```json
 {
   "Typography": {
@@ -210,9 +225,12 @@ Typography compositions are now defined in `_Base/Value.json` under the `Typogra
       "fontFamily": { "value": "{fontFamily.hmi}", "type": "fontFamilies" },
       "letterSpacing": { "value": "{letterSpacing.normal}", "type": "letterSpacing" }
     }
+    // ... 21 more typography compositions
   }
 }
 ```
+
+**Note:** The `_Base/Value.json` file now contains **16 top-level token categories**, including the `Typography` section with 23 pre-built typography combinations.
 
 #### 🎯 Why?
 
@@ -223,16 +241,17 @@ Typography compositions are now defined in `_Base/Value.json` under the `Typogra
 | **Letter spacing** | Missing | Included in compositions | Typography completeness |
 
 #### 🎯 Baymard Research Integration
-✅ **Typography scale:** Complete compositions follow Nielsen/Baymard findings (users scan, need clear hierarchy)  
+✅ **Typography scale:** 23 complete compositions follow Nielsen/Baymard findings (users scan, need clear hierarchy)  
 ✅ **Spacing system:** Consistent 4pt grid reduces cognitive load (NN Group, "Grid Systems")  
 ✅ **Accessibility tokens:** WCAG compliance built-in (Baymard: 71% of conversion losses from accessibility)  
 ✅ **Motion tokens:** Motion guidelines included (Adobe + GV research: motion aids comprehension)  
 
 #### ✅ Benefits
-- **Consistency:** Every component uses same typography scale
+- **Consistency:** Every component uses same typography scale (23 compositions available)
 - **Brand flexibility:** Each brand can override font families (e.g., Luxury uses serif)
 - **Completeness:** Typography compositions include all properties (size, height, family, spacing)
 - **Efficiency:** Developers reference one place, not multiple files
+- **Comprehensive:** 23 typography compositions cover all common use cases (display, heading, body, caption styles)
 
 ---
 
@@ -589,9 +608,9 @@ LAYER 6: 07_Components/Compositions.json (COMPONENT SPECS)
 
 | Layer | File | Purpose | Key Point |
 |-------|------|---------|-----------|
-| 1 | `_Base/Value.json` | Raw primitives (colors, spacing, fonts, typography) | Foundation - never edited by most |
+| 1 | `_Base/Value.json` | Raw primitives (16 categories: colors, spacing, fonts, Typography compositions, etc.) | Foundation - never edited by most |
 | 2 | `01_Brand/Default.json`, `Performance.json`, `Luxury.json` | Brand meanings (swappable!) | Can swap entire file for different brand |
-| 3 | Typography in `_Base/Value.json` | Typography compositions | Typography system with brand overrides |
+| 3 | Typography in `_Base/Value.json` | Typography compositions (23 pre-built combinations) | Typography system with brand overrides |
 | 4 | `03_Themes/Day.json & Night.json` | Theme remapping | Switches on Day/Night toggle |
 | 5 | `04_Motion/Animations.json` & `05_Interactions/States.json` | Motion and interactions | Animation and state tokens |
 | 6 | `07_Components/Compositions.json` | Component specs | Component-specific compositions |
@@ -775,12 +794,15 @@ Week 2: Production (Friday)
 ```
 1. Open Token Studio in Figma
 2. Reference _Base/Value.json for:
-   - Typography compositions (heading-80, body-100, etc.)
+   - Typography compositions (23 available: display-80, heading-80, body-100, etc.)
    - Spacing (spacing-4, spacing-8, spacing-16, etc.)
+   - Color primitives (color-primitives section)
 3. Use 03_Themes/Day.json or Night.json for theme
 4. Reference 05_Interactions/States.json for component states
 5. Build designs using tokens (not hardcoded values)
 ```
+<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
+read_file
 
 **Adding New Tokens:**
 ```
